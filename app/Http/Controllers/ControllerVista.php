@@ -2,12 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Illuminate\Foundation\Bus\DispatchesJobs;
-use Illuminate\Foundation\Validation\ValidatesRequests;
-use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
+use Inertia\Response;
 
-class Controller extends BaseController
+class ControllerVista extends Controller
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    /**
+     * Display the user's profile form.
+     */
+    public function render()
+    {
+        return view('controllers.');
+    }
+
 }
