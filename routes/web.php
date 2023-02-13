@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\DependenciasController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ReporteController;
+use App\Http\Controllers\TrabajadorController;
+use App\Http\Controllers\UserController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -33,6 +37,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+
+    Route::get('/reportes',[ReporteController::class,'index'])->name('reporte.index');
+    Route::get('/trabajadores',[TrabajadorController::class,'index'])->name('trabajador.index');
+    Route::get('/usuarios',[UserController::class,'index'])->name('user.index');
+    Route::get('/dependencia',[DependenciasController::class,'index'])->name('dependencia.index');
 });
 
 require __DIR__.'/auth.php';
