@@ -1,11 +1,11 @@
 import { Link } from "@inertiajs/react";
-export default function Sidebar({ href, children }) {
+export default function Sidebar({ href }) {
     return (
 
         <div>
             <ul className="w-60 flex sm:rounded-lg">
                 <li className="my-1 bg-black-100 sm:rounded-lg">
-                    <Link className="hover:border-white-300" href={href}>Inicio</Link>
+                    <Link className="hover:border-white-300" href={href} >Inicio</Link>
                 </li>
                 <li className="my-1 bg-black-100 sm:rounded-lg">
                     <Link className="hover:border-white-300" >Reportes</Link>
