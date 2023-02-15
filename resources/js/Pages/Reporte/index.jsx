@@ -9,13 +9,10 @@ export default function Reporte(props) {
         >
             <Head title="Reporte" />
 
-            <div className="w-60 mx-0 max-h-fit py-0 flex">
-                <div className="w-60 my-0 max-h-fit py-1 lg:px-8 space-y-1 bg-black">
-                    <h1 className='bg-white'>
-                        Reportes
-                    </h1>
-                </div>
-            </div>
+            <h1 className="text-3xl">
+                Logo
+            </h1>
+            <h4 className='text-xl'>Generador de Reportes</h4>
         </AuthenticatedLayout>
     );
 }
