@@ -24,6 +24,7 @@ export default function Trabajadores(props) {
 					</ul>
 				</div>
 				<a href="#" className="pr-6 ">
+                    
 					<i class='bx bxs-cloud-download' ></i>
 					<span className="h-9 flex justify-center items-center
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] ">Descargar reporte</span>
@@ -49,7 +50,7 @@ export default function Trabajadores(props) {
 					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">08:00</h3>
-						<p>Hora de entrada promedio</p>
+						<p>Hora de Actual</p>
 					</span>
 				</li>
 			</ul>
@@ -63,56 +64,63 @@ export default function Trabajadores(props) {
 					<table className="w-full border-collapse">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
 							<tr>
-								<th>Usuario</th>
+								<th>Correo</th>
+                                <th>Usuario</th>
 								<th>Hora de entrada</th>
                                 <th>Hora de salida</th>
-								<th>Status</th>
+								<th>Status de entrada</th>
+                                <th>Status de salida</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
-									<p>Nicolas</p>
-								</td>
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
+                                <td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
-									<p>Nicolas</p>
-								</td>
+                            <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+                                <td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
-									<p>Nicolas</p>
-								</td>
+                            <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
+                                <td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
-									<p>Nicolas</p>
-								</td>
+                            <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+                                <td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
-									<p>Nicolas</p>
-								</td>
+                            <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
+                                <td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
 							</tr>
 						</tbody>
