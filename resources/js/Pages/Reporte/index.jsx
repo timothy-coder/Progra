@@ -16,7 +16,7 @@ export default function Reporte(props) {
 		<main className="w-full overflow-y-auto bg-white">
 			<div className="flex items-center justify-between gap-4 flex-wrap">
 				<div className="">
-					<h1 className="text-4xl px-6 font-semibold mb-5 text-lime-700">Dashboard</h1>
+					<h1 className="text-4xl px-6 font-semibold mb-5 text-lime-700">UNCP</h1>
 					<ul className="flex items-center gap-4">
 						<li>
 							<a className="text-lime-700  px-6 pointer-events-none" href="#">Dashboard</a>
@@ -77,7 +77,9 @@ export default function Reporte(props) {
 						</thead>
 						<tbody>
 							<tr className="bg-white hover:bg-gray-200">
-								<td></td>
+								<td className="px-0 py-4">
+									<p>example@uncp.edu.pe</p>
+								</td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
@@ -85,8 +87,13 @@ export default function Reporte(props) {
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
+								<td className="px-0 py-4">
+									<p>example@uncp.edu.pe</p>
+								</td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
@@ -94,8 +101,13 @@ export default function Reporte(props) {
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
+								<td className="px-0 py-4">
+									<p>example@uncp.edu.pe</p>
+								</td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
@@ -103,8 +115,13 @@ export default function Reporte(props) {
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
+								<td className="px-0 py-4">
+									<p>example@uncp.edu.pe</p>
+								</td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
@@ -112,8 +129,13 @@ export default function Reporte(props) {
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
+								<td className="px-0 py-4">
+									<p>example@uncp.edu.pe</p>
+								</td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
@@ -121,6 +143,8 @@ export default function Reporte(props) {
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 						</tbody>
 					</table>
