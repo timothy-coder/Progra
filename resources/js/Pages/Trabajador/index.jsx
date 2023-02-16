@@ -31,22 +31,22 @@ export default function Trabajadores(props) {
 			</div>
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px]  bg-[rgb(35,164,85)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">08:00</h3>
 						<p>Hora de entrada promedio</p>
