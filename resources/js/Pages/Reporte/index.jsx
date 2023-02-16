@@ -9,7 +9,7 @@ export default function Reporte(props) {
         >
             <Head title="Reporte" />
 
-            <section  className='bg-green-400'>
+            <section  className='bg-stone-500'>
 		
 
 	
