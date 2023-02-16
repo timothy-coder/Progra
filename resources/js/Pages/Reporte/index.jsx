@@ -14,16 +14,16 @@ export default function Reporte(props) {
 
 	
 		<main className="w-full overflow-y-auto bg-white">
-			<div className="flex items-center justify-between gap-4 flex-wrap">
-				<div className="">
-					<h1 className="text-4xl px-6 font-semibold mb-5 text-lime-700">UNCP</h1>
-					<ul className="flex items-center gap-4">
+			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
+				<div className="px-6">
+					<h1 className="text-4xl px-6 font-semibold mb-5 text-white pt-3">UNCP</h1>
+					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-lime-700  px-6 pointer-events-none" href="#">Dashboard</a>
+							<a className="text-white  pointer-events-none" href="#">DashBoard</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
-							<a className="text-lime-500 pointer-events-none" href="#">Casa</a>
+							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Registros</a>
 						</li>
 					</ul>
 				</div>
@@ -159,19 +159,23 @@ export default function Reporte(props) {
 					</div>
 					<ul className="w-full">
 						<li className="w-full flex justify-between items-center mb-4 
-						px-5 py-3.5 rounded-[10px] bg-gray-200">
+						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
 							<p>logistica</p>
 						</li>
-						<li className="border-l-[10px] border-l-[blue] border-solid">
+						<li className="w-full flex justify-between items-center mb-4 
+						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
 							<p>oti</p>
 						</li>
-						<li className="border-l-[10px] border-l-[orange] border-solid">
+						<li className="w-full flex justify-between items-center mb-4 
+						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
 							<p>rectorado</p>
 						</li>
-						<li class="border-l-[10px] border-l-[blue] border-solid">
+						<li class="w-full flex justify-between items-center mb-4 
+						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
 							<p>oti</p>
 						</li>
-						<li className="border-l-[10px] border-l-[orange] border-solid">
+						<li className="w-full flex justify-between items-center mb-4 
+						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
 							<p>oti</p>
 						</li>
 					</ul>
