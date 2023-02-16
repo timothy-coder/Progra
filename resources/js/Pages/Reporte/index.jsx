@@ -126,10 +126,12 @@ export default function Reporte(props) {
 					</table>
 				</div>
 				<div className="grow basis-[300px]">
-					<div className="flex">
+					<div className="flex justify-between">
 						<h3>Todas las entradas</h3>
-						<i className="items-end" >+</i>
+						<p>
+                        <i className="items-end" >+</i>
 						<i className="items-end" >filtro</i>
+                        </p>
 					</div>
 					<ul className="w-full">
 						<li className="w-full flex justify-between items-center mb-4 

@@ -15,7 +15,7 @@ export default function Trabajadores(props) {
 					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
 					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-white pointer-events-none" href="#">Somos del Centro, somos del Peru</a>
+							<a className="text-white pointer-events-none" href="#">DashBoard</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
