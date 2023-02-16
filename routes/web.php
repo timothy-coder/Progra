@@ -1,10 +1,13 @@
 <?php
 
-use App\Http\Controllers\DependenciasController;
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\ReporteController;
-use App\Http\Controllers\TrabajadorController;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\{DependenciasController,
+                          ProfileController,
+                          ReporteController,
+                          TrabajadorController,
+                          UserController,
+                          ConfigController
+                        };
+
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -43,6 +46,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/trabajadores',[TrabajadorController::class,'index'])->name('trabajador.index');
     Route::get('/usuarios',[UserController::class,'index'])->name('user.index');
     Route::get('/dependencia',[DependenciasController::class,'index'])->name('dependencia.index');
+    Route::get('/config',[ConfigController::class,'index'])->name('config.index');
 });
 
 require __DIR__.'/auth.php';
