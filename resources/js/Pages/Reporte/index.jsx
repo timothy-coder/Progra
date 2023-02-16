@@ -53,7 +53,7 @@ export default function Reporte(props) {
 					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">08:00</h3>
-						<p>Hora de entrada promedio</p>
+						<p>Hora Actual</p>
 					</span>
 				</li>
 			</ul>
@@ -67,10 +67,12 @@ export default function Reporte(props) {
 					<table className="w-full border-collapse">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
 							<tr>
+								<th>Correo</th>
 								<th>Usuario</th>
 								<th>Hora de entrada</th>
                                 <th>Hora de salida</th>
-								<th>Status</th>
+								<th>Status de Entrada</th>
+								<th>Status de Salida</th>
 							</tr>
 						</thead>
 						<tbody>
