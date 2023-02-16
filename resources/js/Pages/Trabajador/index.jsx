@@ -50,7 +50,7 @@ export default function Trabajadores(props) {
                     </tr>
                 </table>
             </div>
-            <div class="table-data">
+            <div classNa="table-data">
 				<div class="order">
 					<div class="head">
 						<h3>Entrada recientes</h3>
