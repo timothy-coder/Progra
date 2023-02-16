@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 export default function Trabajadores(props) {
     return (
         <AuthenticatedLayout
