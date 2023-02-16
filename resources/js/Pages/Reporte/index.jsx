@@ -13,13 +13,13 @@ export default function Reporte(props) {
 		
 
 	
-		<main className="w-full px-6 overflow-y-auto">
+		<main className="w-full overflow-y-auto bg-white">
 			<div className="flex items-center justify-between gap-4 flex-wrap">
 				<div className="">
-					<h1 className="text-4xl font-semibold mb-5 text-lime-700">Dashboard</h1>
+					<h1 className="text-4xl px-6 font-semibold mb-5 text-lime-700">Dashboard</h1>
 					<ul className="flex items-center gap-4">
 						<li>
-							<a className="text-lime-700 pointer-events-none" href="#">Dashboard</a>
+							<a className="text-lime-700  px-6 pointer-events-none" href="#">Dashboard</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
@@ -27,14 +27,14 @@ export default function Reporte(props) {
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="btn-download">
+				<a href="#" className="pr-6">
 					<i class='bx bxs-cloud-download' ></i>
 					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-blue-400 px-4 py-0 rounded-lg ">Descargar reporte</span>
+					 font-medium gap-2.5 bg-[rgb(13,85,57)] text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
 				</a>
 			</div>
 
-			<ul className="grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
+			<ul className="grid px-6 gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
 					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
 					<span class="text">
@@ -59,7 +59,7 @@ export default function Reporte(props) {
 			</ul>
 
 
-			<div className="flex wrap gap-6 w-full mt-6">
+			<div className="flex  px-6 wrap gap-6 w-full mt-6">
 				<div className="grow basis-[500px]">
 					<div className="flex items-center gap-4 mb-6">
 						<h3 className="text-2xl font-semibold mr-auto">Entrada recientes</h3>
@@ -77,6 +77,7 @@ export default function Reporte(props) {
 						</thead>
 						<tbody>
 							<tr className="bg-white hover:bg-gray-200">
+								<td></td>
 								<td className="px-0 py-4">
 									<p>Nicolas</p>
 								</td>
