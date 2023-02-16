@@ -9,17 +9,13 @@ export default function Reporte(props) {
         >
             <Head title="Reporte" />
 
-
-		
-
-	
-		<main className="w-full overflow-y-auto bg-white">
+			<main className="w-full bg-white overflow-y-auto">
 			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
 				<div className="px-6">
-					<h1 className="text-4xl px-6 font-semibold mb-5 text-white pt-3">UNCP</h1>
+					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
 					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-white  pointer-events-none" href="#">DashBoard</a>
+							<a className="text-white pointer-events-none" href="#">DashBoard</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
@@ -30,27 +26,27 @@ export default function Reporte(props) {
 				<a href="#" className="pr-6">
 					<i class='bx bxs-cloud-download' ></i>
 					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-[rgb(13,85,57)] text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
 				</a>
 			</div>
 
-			<ul className="grid px-6 gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-blue-400">
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-green-400" ></i>
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
+					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">08:00</h3>
 						<p>Hora Actual</p>
