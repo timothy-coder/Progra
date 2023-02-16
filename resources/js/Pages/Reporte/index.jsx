@@ -14,8 +14,8 @@ export default function Reporte(props) {
 
 	
 		<main className="w-full px-6 overflow-y-auto">
-			<div className="flex items-center justify-center gap-4 flex-wrap">
-				<div class="left">
+			<div className="flex items-center justify-between gap-4 flex-wrap">
+				<div className="">
 					<h1 className="text-4xl font-semibold mb-5 text-lime-700">Dashboard</h1>
 					<ul className="flex items-center gap-4">
 						<li>
