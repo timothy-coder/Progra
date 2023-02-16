@@ -10,23 +10,23 @@ export default function Trabajadores(props) {
             <Head title="Trabajadores" />
 
             <main className="w-full bg-white overflow-y-auto">
-			<div className="flex items-center justify-between gap-4 flex-wrap bg-black">
+			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
 				<div className="px-6">
-					<h1 className="text-4xl font-semibold mb-5 text-lime-700">Dashboard</h1>
+					<h1 className="text-4xl font-semibold mb-5 text-white">UNCP</h1>
 					<ul className="flex items-center gap-4">
 						<li>
-							<a className="text-lime-700 pointer-events-none" href="#">Dashboard</a>
+							<a className="text-white pointer-events-none" href="#">Somos del Centro, somos del Peru</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
-							<a className="text-lime-500 pointer-events-none" href="#">Casa</a>
+							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Trabajadores</a>
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="btn-download">
+				<a href="#" className="pr-6 ">
 					<i class='bx bxs-cloud-download' ></i>
 					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-blue-400 px-4 py-0 rounded-lg ">Descargar reporte</span>
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] ">Descargar reporte</span>
 				</a>
 			</div>
 
