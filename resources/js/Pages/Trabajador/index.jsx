@@ -50,6 +50,89 @@ export default function Trabajadores(props) {
                     </tr>
                 </table>
             </div>
+            <div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Entrada recientes</h3>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Usuario</th>
+								<th>Hora de entrada</th>
+                                <th>Hora de salida</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<p>Nicolas</p>
+								</td>
+								<td>08:00</td>
+                                <td>06:00</td>
+								<td><span class="status completed">Registrado</span></td>
+							</tr>
+							<tr>
+								<td>
+									<p>Nicolas</p>
+								</td>
+								<td>08:00</td>
+                                <td>06:00</td>
+								<td><span class="status pending">No Registrado</span></td>
+							</tr>
+							<tr>
+								<td>
+									<p>Nicolas</p>
+								</td>
+								<td>08:00</td>
+                                <td>06:00</td>
+								<td><span class="status process">Registrando</span></td>
+							</tr>
+							<tr>
+								<td>
+									<p>Nicolas</p>
+								</td>
+								<td>08:00</td>
+                                <td>06:00</td>
+								<td><span class="status pending">No Registrado</span></td>
+							</tr>
+							<tr>
+								<td>
+									<p>Nicolas</p>
+								</td>
+								<td>08:00</td>
+                                <td>06:00</td>
+								<td><span class="status completed">Registrado</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="todo">
+					<div class="head">
+						<h3>Todas las entradas</h3>
+						<i class='bx bx-plus' >+</i>
+						<i class='bx bx-filter' >filtro</i>
+					</div>
+					<ul class="todo-list">
+						<li class="completed">
+							<p>logistica</p>
+						</li>
+						<li class="completed">
+							<p>oti</p>
+						</li>
+						<li class="not-completed">
+							<p>rectorado</p>
+						</li>
+						<li class="completed">
+							<p>oti</p>
+						</li>
+						<li class="not-completed">
+							<p>oti</p>
+						</li>
+					</ul>
+				</div>
+			</div>
         </AuthenticatedLayout>
     );
 }
