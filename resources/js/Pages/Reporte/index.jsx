@@ -24,7 +24,6 @@ export default function Reporte(props) {
 					</ul>
 				</div>
 				<a href="#" className="pr-6">
-					<i class='bx bxs-cloud-download' ></i>
 					<span className="h-9 flex justify-center items-center
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
 				</a>
