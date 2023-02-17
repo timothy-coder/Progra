@@ -2,6 +2,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonCircleCheck, faTimes, faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons';
 
 export default function Reporte(props) {
     return (
@@ -34,7 +35,6 @@ export default function Reporte(props) {
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
 				<FontAwesomeIcon icon={faUsersBetweenLines} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
@@ -42,7 +42,6 @@ export default function Reporte(props) {
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
 				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
@@ -50,7 +49,6 @@ export default function Reporte(props) {
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
 				<FontAwesomeIcon icon={faTimes} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
-					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]" ></i>
 					<span class="text">
 						<h3 className="text-2xl font-semibold ">08:00</h3>
 						<p>Hora Actual</p>
