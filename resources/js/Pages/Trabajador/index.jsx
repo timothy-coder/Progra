@@ -11,7 +11,7 @@ export default function Trabajadores(props) {
         >
             <Head title="Trabajadores" />
 
-            <main className="w-full bg-white overflow-y-auto">
+        <main className="w-full bg-white overflow-y-auto">
 			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
 				<div className="px-6">
 					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>

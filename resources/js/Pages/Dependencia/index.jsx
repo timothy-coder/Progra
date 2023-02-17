@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 export default function Dependencia(props) {
     return (
         <AuthenticatedLayout
@@ -9,13 +10,84 @@ export default function Dependencia(props) {
         >
             <Head title="Dependencia" />
 
-            <div className="w-60 mx-0 max-h-fit py-0 flex">
-                <div className="w-60 my-0 max-h-fit py-1 lg:px-8 space-y-1 bg-black">
-                    <h1 className='bg-white'>
-                        Dependencia
-                    </h1>
-                </div>
-            </div>
+            <main className="w-full bg-white overflow-y-auto">
+			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
+				<div className="px-6">
+					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
+					<ul className="flex items-center gap-4 pb-3">
+						<li>
+							<a className="text-white pointer-events-none" href="#">DashBoard</a>
+						</li>
+						<li className="text-lime-700">/</li>
+						<li>
+							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Trabajadores</a>
+						</li>
+					</ul>
+				</div>
+				<a href="#" className="pr-6 ">
+                    
+					<span className="h-9 flex justify-center items-center
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
+				</a>
+			</div>
+
+			<div className="px-6 flex wrap gap-6 w-full mt-6">
+				<div className="grow basis-[500px]">
+					<div className="flex items-center gap-4 mb-6">
+						<h3 className="text-2xl font-semibold mr-auto">Lista de Dependencias</h3>
+					</div>
+					<table className="w-full border-collapse">
+						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
+							<tr>
+								<th>Correo</th>
+                                <th>Usuario</th>
+								<th>Hora de entrada</th>
+                                <th>Hora de salida</th>
+                                <th>Dependencia</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+		</main>
         </AuthenticatedLayout>
     );
 }
