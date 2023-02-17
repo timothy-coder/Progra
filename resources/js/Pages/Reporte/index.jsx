@@ -49,9 +49,9 @@ export default function Reporte(props) {
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
 				<FontAwesomeIcon icon={faTimes} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
-					<span class="text">
+					<span class="text-2xl font-clock">
 						<h3 className="text-2xl font-semibold ">08:00</h3>
-						<p>Hora Actual</p>
+						<p>HORA ACTUAL</p>
 					</span>
 				</li>
 			</ul>
