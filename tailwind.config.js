@@ -12,6 +12,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
+                "fsinlitimes":["font-family: 'Orbitron', sans-serif"],
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
                 'clock': ['CLOCK', ...defaultTheme.fontFamily.sans],
             },
