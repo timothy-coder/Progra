@@ -35,22 +35,22 @@ export default function Trabajadores(props) {
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
 				<FontAwesomeIcon icon={faUserGroup} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
-					<span class="text">
+					<span className='text'>
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
 				<FontAwesomeIcon icon={faPeopleArrows} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
-					<span class="text">
+					<span className="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white ">
-				<FontAwesomeIcon icon={faClock} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
+				
 					<span >
-						<Clock/>
+						<Clock></Clock>
 						<p>Hora Actual</p>
 					</span>
 				</li>
