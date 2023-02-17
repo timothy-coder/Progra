@@ -1,7 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPersonCircleCheck, faTimes, faUsersBetweenLines, icon } from '@fortawesome/free-solid-svg-icons';
+import { faPersonCircleCheck, faTimes, faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
 
 export default function Reporte(props) {
     return (
