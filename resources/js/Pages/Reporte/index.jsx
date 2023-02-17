@@ -52,7 +52,7 @@ export default function Reporte(props) {
 				<FontAwesomeIcon icon={faTimes} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
 					<i className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]" ></i>
 					<span class="text">
-						<h3 className="text-2xl font-semibold">08:00</h3>
+						<h3 className="text-2xl font-semibold ">08:00</h3>
 						<p>Hora Actual</p>
 					</span>
 				</li>
