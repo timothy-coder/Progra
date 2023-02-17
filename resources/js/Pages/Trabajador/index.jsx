@@ -1,5 +1,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
+import Clock from '../../Components/Clock';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 export default function Trabajadores(props) {
@@ -46,15 +47,15 @@ export default function Trabajadores(props) {
 						<p>N° total de personal presente</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white ">
 				<FontAwesomeIcon icon={faClock} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
-					<span class="text">
-						<h3 className="text-2xl font-semibold">08:00</h3>
-						<p>Hora de Actual</p>
+					<span >
+						<Clock/>
+						<p>Hora Actual</p>
 					</span>
 				</li>
 			</ul>
-
+			
 
 			<div className="px-6 flex wrap gap-6 w-full mt-6">
 				<div className="grow basis-[500px]">
@@ -129,6 +130,7 @@ export default function Trabajadores(props) {
 				
 			</div>
 		</main>
+		
         </AuthenticatedLayout>
     );
 }
