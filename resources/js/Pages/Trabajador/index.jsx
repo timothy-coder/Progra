@@ -50,7 +50,7 @@ export default function Trabajadores(props) {
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white ">
 				
-					<span class="font-clock">
+					<span class="text-2xl font-clock">
 						<Clock></Clock>
 						<p>HORA ACTUAL</p>
 					</span>
