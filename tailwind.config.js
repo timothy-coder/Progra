@@ -13,7 +13,9 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                'clock': ['CLOCK', ...defaultTheme.fontFamily.sans],
             },
+            
         },
     },
 
