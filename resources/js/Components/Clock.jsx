@@ -9,9 +9,9 @@ export default function Clock() {
   }, 1000);
 
   return (
-   <div className="font-alarmclock">
+   <>
     {time}
-   </div>
+   </>
   );
   
 }
