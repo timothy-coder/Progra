@@ -78,7 +78,7 @@ export default function Configuración(props) {
 								<td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
 								<td className="px-0 py-4">
                                 <FontAwesomeIcon icon={faWrench} className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black"/>
+								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black" />
                                 </td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
