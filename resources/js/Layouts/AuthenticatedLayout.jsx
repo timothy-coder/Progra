@@ -9,17 +9,17 @@ export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
 
     return (
-        <div className="min-h-screen flex bg-white ">
+        <div className="min-w-screen flex bg-white ">
             <nav className="bg-[rgb(62,62,62)] border-b border-[rgb(62,62,62)] ">
                 <div className="w-[10rem] max-h-full  px-4 sm:px-6 lg:px-0">
-                    <div className="justify-between">
-                        <div className="shrink-0 flex items-center w-[10rem]">
+                    <div className="justify-between space-y-4">
+                        <div className="shrink-0 flex items-center p-3.5">
                             <Link href="/">
-                                <ApplicationLogo className="block h-9 w-auto fill-current " />
+                                <ApplicationLogo className="block h-[5rem] w-auto fill-current " />
                             </Link>
                         </div>
                         <div className="hidden sm:flex sm:items-center ">
-                            <div className="ml-3 relative">
+                            <div className="mx-3 relative">
                                 <Dropdown>
                                     <Dropdown.Trigger>
                                         <span className="inline-flex rounded-md">
@@ -54,8 +54,8 @@ export default function Authenticated({ auth, header, children }) {
                                 </Dropdown>
                             </div>
                         </div>
-                        <div className="flex flex-col">
-                            <div className="max-sm:hidden space-x-3 sm:-my-px sm:ml-0 ">
+                        <div className="flex flex-col space-x-3">
+                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-3 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                                     Reportes
                                 </NavLink>
@@ -99,8 +99,8 @@ export default function Authenticated({ auth, header, children }) {
                     </div>
                 </div>
 
-                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="pt-2 pb-3 space-y-1">
+                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'} >
+                    <div className="pt-2 pb-3 space-y-1 ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                             Reportes
                         </ResponsiveNavLink>
