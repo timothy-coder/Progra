@@ -30,6 +30,7 @@ export default function Reporte(props) {
 					<span className="h-9 flex justify-center items-center
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
 				</a>
+				
 			</div>
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">

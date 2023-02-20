@@ -10,9 +10,9 @@ export default function Authenticated({ auth, header, children }) {
 
     return (
         <div className="min-w-screen flex bg-white ">
-            <nav className="bg-[rgb(62,62,62)] border-b border-[rgb(62,62,62)] ">
-                <div className="w-[10rem] h-auto px-4 sm:px-6 lg:px-0">
-                    <div className="justify-between space-y-4">
+            <nav className="bg-[rgb(62,62,62)] h-[100vh] border-b border-[rgb(62,62,62)] fixed ">
+                <div className="w-[10rem] px-4 sm:px-6 lg:px-0">
+                    <div className="justify-between space-y-4 ">
                         <div className="shrink-0 flex items-center p-3.5">
                             <Link href="/">
                                 <ApplicationLogo className="block h-[5rem] w-auto fill-current " />
@@ -142,7 +142,7 @@ export default function Authenticated({ auth, header, children }) {
                 </header>
             )}
 
-            <main>{children}</main>
+            <main className="pl-[10rem]">{children}</main>
         </div>
     );
 }
