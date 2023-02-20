@@ -57,7 +57,7 @@ export default function Configuración(props) {
 			</ul>
 
 
-			<div className="px-6 flex wrap gap-6 w-full mt-6">
+			<div className="px-6 flex flex-wrap gap-6 w-full mt-6">
 				<div className="grow basis-[500px]">
 					<div className="flex items-center gap-4 mb-6">
 						<h3 className="text-2xl font-semibold mr-auto">Entrada recientes</h3>

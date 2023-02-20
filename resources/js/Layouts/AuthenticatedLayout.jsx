@@ -13,32 +13,11 @@ export default function Authenticated({ auth, header, children }) {
             <nav className="bg-[rgb(62,62,62)] border-b border-[rgb(62,62,62)] ">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16 ">
-                        <div className="flex ">
-                            <div className="shrink-0 flex items-center">
-                                <Link href="/">
-                                    <ApplicationLogo className="block h-9 w-auto fill-current " />
-                                </Link>
-                            </div>
-
-                            <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                                <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                    Reportes
-                                </NavLink>
-                                <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                                    Trabajadores
-                                </NavLink>
-                                <NavLink href={route('user.index')} active={route().current('user.index')}>
-                                    Usuarios
-                                </NavLink>
-                                <NavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                                    Dependencia
-                                </NavLink>
-                                <NavLink href={route('config.index')} active={route().current('config.index')}>
-                                    Configuración
-                                </NavLink>
-                            </div>
+                        <div className="shrink-0 flex items-center">
+                            <Link href="/">
+                                <ApplicationLogo className="block h-9 w-auto fill-current " />
+                            </Link>
                         </div>
-
                         <div className="hidden sm:flex sm:items-center sm:ml-6">
                             <div className="ml-3 relative">
                                 <Dropdown>
@@ -75,7 +54,25 @@ export default function Authenticated({ auth, header, children }) {
                                 </Dropdown>
                             </div>
                         </div>
-
+                        <div className="flex ">
+                            <div className="max-sm:hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
+                                    Reportes
+                                </NavLink>
+                                <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
+                                    Trabajadores
+                                </NavLink>
+                                <NavLink href={route('user.index')} active={route().current('user.index')}>
+                                    Usuarios
+                                </NavLink>
+                                <NavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
+                                    Dependencia
+                                </NavLink>
+                                <NavLink href={route('config.index')} active={route().current('config.index')}>
+                                    Configuración
+                                </NavLink>
+                            </div>
+                        </div>
                         <div className="-mr-2 flex items-center sm:hidden">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
