@@ -2,14 +2,14 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
-
-export default function Trabajadores(props) {
+import Clock from '@/Components/Clock';
+export default function Configuración(props) {
     return (
         <AuthenticatedLayout
             auth={props.auth}
             errors={props.errors}
         >
-            <Head title="Trabajadores" />
+            <Head title="Configuración" />
 
             <main className="w-full bg-white overflow-y-auto">
 			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
@@ -21,7 +21,7 @@ export default function Trabajadores(props) {
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
-							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Trabajadores</a>
+							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Configuración</a>
 						</li>
 					</ul>
 				</div>
@@ -49,10 +49,9 @@ export default function Trabajadores(props) {
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
-                    <FontAwesomeIcon icon={faClock} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
-					<span class="text">
-						<h3 className="text-2xl font-semibold">08:00</h3>
-						<p>Hora de Actual</p>
+					<span className="text-2xl">
+						<p>Hora Actual</p>
+						<p className="font-clock"><Clock/></p>
 					</span>
 				</li>
 			</ul>
