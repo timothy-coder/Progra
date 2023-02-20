@@ -142,7 +142,7 @@ export default function Authenticated({ auth, header, children }) {
                 </header>
             )}
 
-            <main className="pl-[10rem]">{children}</main>
+            <main className="pl-[10rem] max-w-[100%]">{children}</main>
         </div>
     );
 }
