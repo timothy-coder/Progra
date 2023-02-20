@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import Clock from '../../Components/Clock';
+import Clockg from '../../Components/Clockg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 
@@ -49,7 +50,7 @@ export default function Trabajadores(props) {
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white ">
-				
+					<Clockg/>
 					<span className="text-2xl">
 						<p>Hora Actual</p>
 						<p className="font-clock"><Clock/></p>

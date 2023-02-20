@@ -10,7 +10,7 @@ export default function Dashboard(props) {
             <Head title="Dashboard" />
 
             <div className="w-60 mx-0 max-h-fit py-0 flex ">
-                <h1>hi</h1>
+            
             </div>
         </AuthenticatedLayout>
     );
