@@ -63,6 +63,11 @@ export default function Reporte(props) {
 				<div className="grow basis-[600px]">
 					<div className="flex items-center gap-4 mb-6">
 						<h3 className="text-2xl font-semibold mr-auto">Entrada recientes</h3>
+						<a href="#" className="pr-6 ">
+                    
+					<span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
+				</a>
 					</div>
 					<table className="w-full border-collapse">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
@@ -188,11 +193,6 @@ export default function Reporte(props) {
 				</div>
 				
 			</div>
-			<a href="#" className="pr-6 ">
-                    
-					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
-				</a>
 		</main>
         </AuthenticatedLayout>
     );
