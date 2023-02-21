@@ -20,7 +20,7 @@ export default function Dependencia(props) {
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
-							<a className="text-lime-800 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Dependencia	</a>
+							<a className="text-lime-600 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Dependencia	</a>
 						</li>
 					</ul>
 				</div>
