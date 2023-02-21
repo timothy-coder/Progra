@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 export default function Dependencia(props) {
@@ -70,12 +71,30 @@ export default function Dependencia(props) {
                                 <td className="px-0 py-4">06:00</td>
                                 <td className="px-0 py-4">OTI</td>
 							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>	
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 				
 			</div>
-			
+			<div className="flex flex-wrap items-center pl-[20rem] bg-[rgb(0,48,28)] text-white space-x-1">
+				<p>Copyright</p>
+				<FontAwesomeIcon icon={faCopyright}/>
+				<p>2023 - Universidad Nacional del Centro del Perú</p>
+			</div>
 		</main>
         </AuthenticatedLayout>
     );
