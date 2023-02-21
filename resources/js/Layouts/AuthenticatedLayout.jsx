@@ -4,6 +4,8 @@ import Dropdown from '@/Components/Dropdown';
 import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
@@ -20,23 +22,24 @@ export default function Authenticated({ auth, header, children }) {
                             </Link>
                         </div>
                         
-                        <div className="flex flex-col space-x-3 ">
-                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-3 ">
+                        <div className="flex flex-col space-x-3  ">
+                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                    Reportes
+                                    <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                                 </NavLink>
                                 <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                                    Trabajadores
+                                    <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
                                 </NavLink>
                                 <NavLink href={route('user.index')} active={route().current('user.index')}>
-                                    Usuarios
+                                <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
                                 </NavLink>
                                 <NavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                                    Dependencia
+                                    <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
                                 </NavLink>
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
-                                    Configuración
+                                <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
+
                             </div>
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
@@ -115,7 +118,7 @@ export default function Authenticated({ auth, header, children }) {
 					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
 					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-white pointer-events-none" href={route('reporte.index')}>Reportes</a>
+							<a className="text-white pointer-events-none" href={route('reporte.index')}>General</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
@@ -126,15 +129,19 @@ export default function Authenticated({ auth, header, children }) {
 				</div>
                 <div className="hidden sm:flex sm:items-center ">
                             <div className="mx-3 relative">
+                                
                                 <Dropdown>
                                     <Dropdown.Trigger>
+                                    
                                         <span className="inline-flex rounded-md">
+                                            
                                             <button
                                                 type="button"
                                                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-4 font-black border-4 rounded-md text-gray-500 bg-white hover:text-gray-700 hover:border-yellow-500 focus:outline-none transition ease-in-out duration-150"
                                             >
+                                                <FontAwesomeIcon icon={faUserLarge} className="pr-2"/>
                                                 {auth.user.name}
-
+                                                
                                                 <svg
                                                     className="ml-2 -mr-0.5 h-4 w-4"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -152,9 +159,9 @@ export default function Authenticated({ auth, header, children }) {
                                     </Dropdown.Trigger>
 
                                     <Dropdown.Content>
-                                        <Dropdown.Link href={route('profile.edit')}>Profile</Dropdown.Link>
+                                        <Dropdown.Link href={route('profile.edit')}><FontAwesomeIcon icon={faUserGear} className="pr-2"/>Profile</Dropdown.Link>
                                         <Dropdown.Link href={route('logout')} method="post" as="button">
-                                            Log Out
+                                        <FontAwesomeIcon icon={faPersonWalkingArrowRight} className="pr-2"/>Log Out
                                         </Dropdown.Link>
                                     </Dropdown.Content>
                                 </Dropdown>

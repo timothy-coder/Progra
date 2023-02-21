@@ -75,7 +75,7 @@ export default function Dependencia(props) {
 				</div>
 				<div className="grow basis-[300px]">
 					<div className="flex justify-between">
-						<h3>Todas las entradas</h3>
+						<h3>Todas las Dependencias</h3>
 						<p>
                         <i className="items-end" >Filtro</i>
 						<a href="#"><FontAwesomeIcon icon={faFilter}/></a>
@@ -84,23 +84,23 @@ export default function Dependencia(props) {
 					<ul className="w-full">
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>Año de Inicio</p>
+							<p>rectorado</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>Nombre</p>
+							<p>rectorado</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
-							<p>Correo</p>
+							<p>rectorado</p>
 						</li>
 						<li class="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>oti</p>
+							<p>rectorado</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
-							<p>oti</p>
+							<p>rectorado</p>
 						</li>
 					</ul>
 				</div>
