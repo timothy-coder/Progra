@@ -4,6 +4,8 @@ import Dropdown from '@/Components/Dropdown';
 import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
@@ -23,10 +25,10 @@ export default function Authenticated({ auth, header, children }) {
                         <div className="flex flex-col space-x-3 ">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-3 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                    Reportes
+                                    <FontAwesomeIcon icon={faBars}/><a className="mx-1">Reportes</a>
                                 </NavLink>
                                 <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                                    Trabajadores
+                                <FontAwesomeIcon icon={faBars}/><a className="mx-1">Trabajadores</a>
                                 </NavLink>
                                 <NavLink href={route('user.index')} active={route().current('user.index')}>
                                     Usuarios
