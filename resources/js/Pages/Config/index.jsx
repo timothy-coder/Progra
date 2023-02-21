@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 import Clock from '@/Components/Clock';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 export default function Configuración(props) {
     return (
         <AuthenticatedLayout

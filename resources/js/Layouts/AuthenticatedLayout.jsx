@@ -166,8 +166,11 @@ export default function Authenticated({ auth, header, children }) {
                                     </Dropdown.Content>
                                 </Dropdown>
                             </div>
+                                
                         </div>
+                        
 			</div>
+            
                 {children}
                 </main>
         </div>
