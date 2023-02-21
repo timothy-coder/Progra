@@ -3,7 +3,7 @@ import { Head } from '@inertiajs/react';
 import Clock from '../../Components/Clock';
 import Clockg from '../../Components/Clockg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faClock,faCopyright, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 
 export default function Trabajadores(props) {
     return (
@@ -130,6 +130,11 @@ export default function Trabajadores(props) {
 					</table>
 				</div>
 				
+			</div>
+			<div className="flex flex-wrap items-center pl-[20rem] bg-[rgb(0,48,28)] text-white space-x-1">
+				<p>Copyright</p>
+				<FontAwesomeIcon icon={faCopyright}/>
+				<p>2023 - Universidad Nacional del Centro del Perú</p>
 			</div>
 		</main>
 		
