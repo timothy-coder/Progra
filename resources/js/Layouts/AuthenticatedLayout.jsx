@@ -114,11 +114,11 @@ export default function Authenticated({ auth, header, children }) {
 					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
 					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-white pointer-events-none" href="#">DashBoard</a>
+							<a className="text-white pointer-events-none" href={route('reporte.index')}>Reportes</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
-							<a className="text-lime-600 pointer-events-none hover:text-[rgb(151,115,61)]" href="#"></a>
+							<a className="text-lime-600 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">i</a>
 						</li>
 					</ul>
                     
