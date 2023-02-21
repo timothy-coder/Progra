@@ -14,7 +14,7 @@ export default function Authenticated({ auth, header, children }) {
     return (
         <div className="min-w-screen bg-white ">
             <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed ">
-                
+
                 <div className=" px-4 sm:px-6 lg:px-0">
                     <div className="justify-between space-y-4  w-[10rem]">
                         <div className="shrink-0 flex items-center pl-7 py-3.5 ">
@@ -27,9 +27,6 @@ export default function Authenticated({ auth, header, children }) {
 
                         <div className="flex flex-col space-x-3">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
-
-                        <div className="flex flex-col space-x-3 ">
-                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1   ">
 
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                                 <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
