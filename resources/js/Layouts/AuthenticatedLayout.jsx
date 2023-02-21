@@ -5,6 +5,7 @@ import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter,faYoutube} from '@fortawesome/free-brands-svg-icons'
 import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
@@ -39,8 +40,15 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
+                                <div className="text-white pl-3">Redes Sociales</div>
+                                <div className="text-white pl-3 space-x-3 justify-items-center">
+                                <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
+                                </div>
 
                             </div>
+
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
                             <button

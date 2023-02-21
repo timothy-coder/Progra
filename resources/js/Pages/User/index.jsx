@@ -2,7 +2,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
-import { faClock, faDownload,faFilter, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faDownload,faFilter} from '@fortawesome/free-solid-svg-icons'
 
 export default function Dependencia(props) {
     return (
