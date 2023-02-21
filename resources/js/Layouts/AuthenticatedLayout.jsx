@@ -5,7 +5,8 @@ import NavLink from '@/Components/NavLink';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter,faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
@@ -22,23 +23,29 @@ export default function Authenticated({ auth, header, children }) {
                             </Link>
                         </div>
                         
-                        <div className="flex flex-col space-x-3 ">
-                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-3 ">
+                        <div className="flex flex-col space-x-3  ">
+                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                    <FontAwesomeIcon icon={faBars}/><a className="mx-1">Reportes</a>
+                                <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                                 </NavLink>
                                 <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                                <FontAwesomeIcon icon={faBars}/><a className="mx-1">Trabajadores</a>
+                                <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
                                 </NavLink>
                                 <NavLink href={route('user.index')} active={route().current('user.index')}>
-                                    Usuarios
+                                <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
                                 </NavLink>
                                 <NavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                                    Dependencia
+                                <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
                                 </NavLink>
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
-                                    Configuración
+                                <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
+                                <div className="text-white pl-3">Redes Sociales</div>
+                                <div className="text-white pl-3 space-x-3 justify-items-center">
+                                <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
+                                <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
+                                </div>
                             </div>
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
@@ -117,7 +124,7 @@ export default function Authenticated({ auth, header, children }) {
 					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
 					<ul className="flex items-center gap-4 pb-3">
 						<li>
-							<a className="text-white pointer-events-none" href={route('reporte.index')}>Reportes</a>
+							<a className="text-white pointer-events-none" href={route('reporte.index')}>General</a>
 						</li>
 						<li className="text-lime-700">/</li>
 						<li>
