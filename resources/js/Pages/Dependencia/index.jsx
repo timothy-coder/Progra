@@ -87,6 +87,7 @@ export default function Dependencia(props) {
 				</div>
 				
 			</div>
+			
 		</main>
         </AuthenticatedLayout>
     );

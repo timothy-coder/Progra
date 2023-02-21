@@ -144,9 +144,13 @@ export default function Reporte(props) {
 								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								
 							</tr>
+							
 						</tbody>
+						
 					</table>
+					
 				</div>
 				<div className="grow basis-[300px]">
 					<div className="flex justify-between">
@@ -177,9 +181,17 @@ export default function Reporte(props) {
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
 							<p>oti</p>
 						</li>
+						
 					</ul>
+					
 				</div>
+				
 			</div>
+			<a href="#" className="pr-6 ">
+                    
+					<span className="h-9 flex justify-center items-center
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
+				</a>
 		</main>
         </AuthenticatedLayout>
     );
