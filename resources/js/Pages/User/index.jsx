@@ -1,7 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faClock, faDownload,faFilter, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 export default function Dependencia(props) {
     return (
         <AuthenticatedLayout
@@ -90,8 +90,8 @@ export default function Dependencia(props) {
 					<div className="flex justify-between">
 						<h3>Todas las entradas</h3>
 						<p>
-                        <i className="items-end" >+</i>
-						<i className="items-end" >filtro</i>
+                        <i className="items-end" >Filtro</i>
+						<a href="#"><FontAwesomeIcon icon={faFilter}/></a>
                         </p>
 					</div>
 					<ul className="w-full">
