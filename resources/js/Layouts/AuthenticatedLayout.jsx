@@ -142,6 +142,7 @@ export default function Authenticated({ auth, header, children }) {
                                                 type="button"
                                                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-4 font-black border-4 rounded-md text-gray-500 bg-white hover:text-gray-700 hover:border-yellow-500 focus:outline-none transition ease-in-out duration-150"
                                             >
+                                                <FontAwesomeIcon icon={faUserLarge} className="pr-2"/>
                                                 {auth.user.name}
 
                                                 <svg
@@ -161,9 +162,9 @@ export default function Authenticated({ auth, header, children }) {
                                     </Dropdown.Trigger>
 
                                     <Dropdown.Content>
-                                        <Dropdown.Link href={route('profile.edit')}>Profile</Dropdown.Link>
+                                    <Dropdown.Link href={route('profile.edit')}><FontAwesomeIcon icon={faUserGear} className="pr-2"/>Profile</Dropdown.Link>
                                         <Dropdown.Link href={route('logout')} method="post" as="button">
-                                            Log Out
+                                        <FontAwesomeIcon icon={faPersonWalkingArrowRight} className="pr-2"/>Log Out
                                         </Dropdown.Link>
                                     </Dropdown.Content>
                                 </Dropdown>

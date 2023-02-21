@@ -142,7 +142,7 @@ export default function Reporte(props) {
 				</div>
 				<div className="grow basis-[150px]">
 					<div className="flex justify-between">
-						<h3>Todas las entradas</h3>
+					<h3>Todas las Dependencias</h3>
 						<p>
                         <i className="items-end" >Filtro</i>
 						<a href="#"><FontAwesomeIcon icon={faFilter}/></a>
