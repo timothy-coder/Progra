@@ -34,7 +34,7 @@ export default function Dependencia(props) {
 						<a href="#" className="pr-6 ">
                     
 					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar lista de usuarios</span>
 				</a>
 					</div>
 					<table className="w-full border-collapse">
