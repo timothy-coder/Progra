@@ -2,8 +2,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
-import { faClock, faDownload,faFilter} from '@fortawesome/free-solid-svg-icons'
-
+import { faClock, faDownload,faFilter, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 export default function Dependencia(props) {
     return (
         <AuthenticatedLayout
@@ -76,7 +75,7 @@ export default function Dependencia(props) {
 				</div>
 				<div className="grow basis-[300px]">
 					<div className="flex justify-between">
-						<h3>Todas las Dependencias</h3>
+						<h3>Todas las entradas</h3>
 						<p>
                         <i className="items-end" >Filtro</i>
 						<a href="#"><FontAwesomeIcon icon={faFilter}/></a>
@@ -85,23 +84,23 @@ export default function Dependencia(props) {
 					<ul className="w-full">
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>rectorado</p>
+							<p>Año de Inicio</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>rectorado</p>
+							<p>Nombre</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
-							<p>rectorado</p>
+							<p>Correo</p>
 						</li>
 						<li class="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[blue] border-solid">
-							<p>rectorado</p>
+							<p>oti</p>
 						</li>
 						<li className="w-full flex justify-between items-center mb-4 
 						px-5 py-3.5 rounded-[10px] bg-gray-200 border-l-[10px] border-l-[orange] border-solid">
-							<p>rectorado</p>
+							<p>oti</p>
 						</li>
 					</ul>
 				</div>
