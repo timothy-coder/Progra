@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { faClock, faDownload,faFilter, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 export default function Dependencia(props) {
     return (
@@ -103,6 +104,11 @@ export default function Dependencia(props) {
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div className="flex flex-wrap items-center pl-[20rem] bg-[rgb(0,48,28)] text-white space-x-1">
+				<p>Copyright</p>
+				<FontAwesomeIcon icon={faCopyright}/>
+				<p>2023 - Universidad Nacional del Centro del Perú</p>
 			</div>
 		</main>
         </AuthenticatedLayout>
