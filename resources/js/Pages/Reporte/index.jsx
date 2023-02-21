@@ -26,10 +26,9 @@ export default function Reporte(props) {
 						</li>
 					</ul>
 				</div>
-				<a href="#" className="pr-6">
+			
 					<span className="h-9 flex justify-center items-center
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
-				</a>
 				
 			</div>
 
@@ -193,6 +192,7 @@ export default function Reporte(props) {
 				</div>
 				
 			</div>
+			
 		</main>
         </AuthenticatedLayout>
     );
