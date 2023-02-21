@@ -1,9 +1,10 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPersonCircleCheck, faTimes, faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
-import { faClock, faDownload, faFilter, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons';
+import { faPersonCircleCheck, faTimes, faDownload, faFilter,faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
+import { faClock,  faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons';
 import Clock from '@/Components/Clock';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 export default function Reporte(props) {
     return (
         <AuthenticatedLayout
@@ -152,7 +153,7 @@ export default function Reporte(props) {
 					</table>
 					
 				</div>
-				<div className="grow basis-[300px]">
+				<div className="grow basis-[150px]">
 					<div className="flex justify-between">
 						<h3>Todas las entradas</h3>
 						<p>
@@ -187,7 +188,11 @@ export default function Reporte(props) {
 				</div>
 				
 			</div>
-			
+			<div className="flex flex-wrap items-center pl-[20rem] bg-[rgb(0,48,28)] text-white space-x-1">
+				<p>Copyright</p>
+				<FontAwesomeIcon icon={faCopyright}/>
+				<p>2023 - Universidad Nacional del Centro del Perú</p>
+			</div>
 		</main>
         </AuthenticatedLayout>
     );
