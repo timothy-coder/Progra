@@ -70,6 +70,20 @@ export default function Dependencia(props) {
                                 <td className="px-0 py-4">06:00</td>
                                 <td className="px-0 py-4">OTI</td>
 							</tr>
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>	
+							<tr className="bg-white hover:bg-gray-200">
+                                <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
+                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+								<td className="px-0 py-4">08:00</td>
+                                <td className="px-0 py-4">06:00</td>
+                                <td className="px-0 py-4">OTI</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
