@@ -26,10 +26,6 @@ export default function Reporte(props) {
 						</li>
 					</ul>
 				</div>
-			
-					<span className="h-9 flex justify-center items-center
-					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)]">Descargar reporte</span>
-				
 			</div>
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
@@ -64,8 +60,8 @@ export default function Reporte(props) {
 						<h3 className="text-2xl font-semibold mr-auto">Entrada recientes</h3>
 						<a href="#" className="pr-6 ">
                     
-					<span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
+					<span className="h-9 flex justify-center items-center
+					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
 				</a>
 					</div>
 					<table className="w-full border-collapse">
