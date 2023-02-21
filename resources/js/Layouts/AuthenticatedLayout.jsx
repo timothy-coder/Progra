@@ -23,8 +23,8 @@ export default function Authenticated({ auth, header, children }) {
                             </Link>
                         </div>
                         
-                        <div className="flex flex-col space-x-3  ">
-                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
+                        <div className="flex flex-col space-x-3 ">
+                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                                 <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                                 </NavLink>
