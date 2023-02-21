@@ -10,6 +10,7 @@ use App\Http\Controllers\{DependenciasController,
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
 use Inertia\Inertia;
 
 /*
@@ -47,8 +48,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/dependencia',[DependenciasController::class,'index'])->name('dependencia.index');
     Route::get('/config',[ConfigController::class,'index'])->name('config.index');
 
-
     
+    
+
 });
 
 require __DIR__.'/auth.php';

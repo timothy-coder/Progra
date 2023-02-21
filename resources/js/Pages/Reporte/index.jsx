@@ -14,20 +14,7 @@ export default function Reporte(props) {
             <Head title="Reporte" />
 
 			<main className="w-full bg-white overflow-y-auto">
-			<div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
-				<div className="px-6">
-					<h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
-					<ul className="flex items-center gap-4 pb-3">
-						<li>
-							<a className="text-white pointer-events-none" href="#">DashBoard</a>
-						</li>
-						<li className="text-lime-700">/</li>
-						<li>
-							<a className="text-lime-600 pointer-events-none hover:text-[rgb(151,115,61)]" href="#">Registros</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
