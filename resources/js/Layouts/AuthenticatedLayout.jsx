@@ -42,13 +42,28 @@ export default function Authenticated({ auth, header, children }) {
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
                                 <div className="text-white pl-3">Redes Sociales</div>
-                                <div className="text-white pl-3 space-x-3 justify-items-center">
-                                    <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
-                                    <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
-                                    <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
+                                <div class="social-buttons">
+                                <a
+                                    href="#"
+                                    class="social-button-social-button--facebook"
+                                    aria-label="Facebook">
+                                <FontAwesomeIcon icon={faFacebook} />    
+                                </a>
+                                <a
+                                    href="#"
+                                    class="social-button-social-button--twitter"
+                                    aria-label="Facebook">
+                                <FontAwesomeIcon icon={faTwitter}/>    
+                                </a>
+                                <a
+                                    href="#"
+                                    class="social-button-social-button--youtube"
+                                    aria-label="Facebook">
+                                <FontAwesomeIcon icon={faYoutube}/>    
+                                </a>
+                                </div>
                                 </div>
                             </div>
-                        </div>
                         <div className="-mr-2 flex items-center sm:hidden">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
