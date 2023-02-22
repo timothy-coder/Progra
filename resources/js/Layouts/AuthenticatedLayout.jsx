@@ -41,16 +41,7 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
-                                <div className="text-white pl-3">Redes Sociales</div>
-                                <div className=" flex flex-wrap justify-center gap-2">
-
-                                    <FontAwesomeIcon icon={faFacebook} className="w-5 h-5 text-blue-700 bg-white hover:text-white hover:bg-blue-700 rounded-[100%] p-2 "/>
-                                    <FontAwesomeIcon icon={faTwitter} className="w-5 h-5 text-[rgb(29,155,240)] bg-white hover:text-white hover:bg-[rgb(29,155,240)] rounded-[100%] p-2"/>
-                                    <FontAwesomeIcon icon={faYoutube} className="w-5 h-5 text-red-700 bg-white hover:bg-red-700 hover:text-white rounded-[100%] p-2 "/>   
-
-                                    
-
-                                </div>
+                                
                             </div>
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
