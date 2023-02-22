@@ -94,34 +94,34 @@ export default function Authenticated({ auth, header, children }) {
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'} >
                     <div className="pt-2 pb-3 space-y-1 ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                            Reportes
+                        <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                            Trabajadores
+                        <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('user.index')} active={route().current('user.index')}>
-                            Usuarios
+                        <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                            Dependencia
+                        <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('config.index')} active={route().current('config.index')}>
-                            Configuración
+                        <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                         </ResponsiveNavLink>
                     </div>
 
                     <div className="pt-4 pb-1 border-t border-gray-200">
                         <div className="px-4">
                             <div className="font-medium text-base text-gray-800">
-                                {auth.user.name}
+                            <FontAwesomeIcon icon={faUserLarge} className="pr-2"/>{auth.user.name}
                             </div>
                             <div className="font-medium text-sm text-gray-500">{auth.user.email}</div>
                         </div>
 
                         <div className="mt-3 space-y-1">
-                            <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
+                            <ResponsiveNavLink href={route('profile.edit')}><FontAwesomeIcon icon={faUserGear} className="pr-2"/>Profile</ResponsiveNavLink>
                             <ResponsiveNavLink method="post" href={route('logout')} as="button">
-                                Log Out
+                            <FontAwesomeIcon icon={faPersonWalkingArrowRight} className="pr-2"/>Log Out
                             </ResponsiveNavLink>
                         </div>
                     </div>
