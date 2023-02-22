@@ -43,9 +43,9 @@ export default function Authenticated({ auth, header, children }) {
                                 </NavLink>
                                 <div className="text-white pl-3">Redes Sociales</div>
                                 <div className="text-white pl-3 space-x-3 justify-items-center">
-                                <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
-                                <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
-                                <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
                                 </div>
                             </div>
                         </div>
