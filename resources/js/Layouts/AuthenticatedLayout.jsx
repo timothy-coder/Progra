@@ -9,8 +9,9 @@ import { faFacebook, faTwitter,faYoutube} from '@fortawesome/free-brands-svg-ico
 import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
+    
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
-
+    
     return (
         <div className="min-w-screen bg-white ">
             <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed ">

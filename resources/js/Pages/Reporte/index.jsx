@@ -9,6 +9,7 @@ export default function Reporte(props) {
     return (
         <AuthenticatedLayout
             auth={props.auth}
+			
             errors={props.errors}
         >
             <Head title="Reporte" />
