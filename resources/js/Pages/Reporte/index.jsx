@@ -52,7 +52,7 @@ export default function Reporte(props) {
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar reporte</span>
 				</a>
 					</div>
-					<table className="w-full border-collapse">
+					<table className="w-full border-collapse place-items-center place-content-center">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
 							<tr>
 								<th>Correo</th>
@@ -107,7 +107,7 @@ export default function Reporte(props) {
 								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
-								<td className="px-0 py-4">
+								<td className="px-0 py-4 ">
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
@@ -176,7 +176,7 @@ export default function Reporte(props) {
 				</div>
 				
 			</div>
-			<div className="flex flex-wrap place-items-center place-content-center bg-[rgb(0,48,28)] text-white space-x-1 ">
+			<div className="flex flex-wrap place-items-center place-content-center bg-[rgb(0,48,28)] text-white space-x-1 md:w-full">
 				<p>Copyright</p>
 				<FontAwesomeIcon icon={faCopyright}/>
 				<p>2023 - Universidad Nacional del Centro del Perú</p>
