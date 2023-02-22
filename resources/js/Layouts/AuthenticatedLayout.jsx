@@ -77,19 +77,19 @@ export default function Authenticated({ auth, header, children }) {
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'} >
                     <div className="pt-2 pb-3 space-y-1 ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                            Reportes
+                        <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                            Trabajadores
+                        <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('user.index')} active={route().current('user.index')}>
-                            Usuarios
+                        <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                            Dependencia
+                        <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('config.index')} active={route().current('config.index')}>
-                            Configuración
+                        <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                         </ResponsiveNavLink>
                     </div>
 
