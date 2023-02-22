@@ -14,9 +14,9 @@ export default function Authenticated({ auth, header, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className="bg-[rgb(62,62,62)]  border-b border-[rgb(62,62,62)] ">
-                <div className=" px-4 sm:px-6 lg:px-0 h-[100vh] bg-[rgb(62,62,62)]  fixed w-[10rem]">
-                    <div className="justify-between space-y-4 ">
+            <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed ">
+                <div className=" px-4 sm:px-6 lg:px-0 w-[10rem]">
+                    <div className="justify-between space-y-4  ">
                         <div className="shrink-0 flex items-center p-3.5 ">
                             <Link href={route('reporte.index')}>
                                 {/* href='/' cambiar*/}
@@ -42,28 +42,13 @@ export default function Authenticated({ auth, header, children }) {
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
                                 <div className="text-white pl-3">Redes Sociales</div>
-                                <div class="social-buttons">
-                                <a
-                                    href="#"
-                                    class="social-button-social-button--facebook"
-                                    aria-label="Facebook">
-                                <FontAwesomeIcon icon={faFacebook} />    
-                                </a>
-                                <a
-                                    href="#"
-                                    class="social-button-social-button--twitter"
-                                    aria-label="Facebook">
-                                <FontAwesomeIcon icon={faTwitter}/>    
-                                </a>
-                                <a
-                                    href="#"
-                                    class="social-button-social-button--youtube"
-                                    aria-label="Facebook">
-                                <FontAwesomeIcon icon={faYoutube}/>    
-                                </a>
-                                </div>
+                                <div className="text-white pl-3 space-x-3 justify-items-center">
+                                    <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
                                 </div>
                             </div>
+                        </div>
                         <div className="-mr-2 flex items-center sm:hidden">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
@@ -186,10 +171,8 @@ export default function Authenticated({ auth, header, children }) {
                                 </Dropdown>
                             </div>
                                 
-                        </div>
-                        
+                </div>       
 			</div>
-            
                 {children}
                 </main>
         </div>
