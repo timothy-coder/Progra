@@ -105,7 +105,7 @@ export default function Dependencia(props) {
 					</ul>
 				</div>
 			</div>
-			<div className="flex flex-wrap items-center pl-[20rem] bg-[rgb(0,48,28)] text-white space-x-1">
+			<div className="flex flex-wrap place-items-center place-content-center bg-[rgb(0,48,28)] text-white space-x-1 ">
 				<p>Copyright</p>
 				<FontAwesomeIcon icon={faCopyright}/>
 				<p>2023 - Universidad Nacional del Centro del Perú</p>
