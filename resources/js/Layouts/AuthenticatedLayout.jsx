@@ -6,7 +6,7 @@ import ResponsiveNavLink from '@/Components/ResponsiveNavLink';
 import { Link } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter,faYoutube} from '@fortawesome/free-brands-svg-icons'
-import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
+import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faPhone, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
 export default function Authenticated({ auth, header, children }) {
     
@@ -41,7 +41,10 @@ export default function Authenticated({ auth, header, children }) {
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
-                                
+                                <FontAwesomeIcon icon={faPhone} className="pl-3 pr-1"/>
+                                <a className="px-1">Contactenos</a>
+                                <br/>
+                                <a className="px-6">064-432546</a>
                             </div>
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
