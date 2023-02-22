@@ -42,31 +42,23 @@ export default function Authenticated({ auth, header, children }) {
                                 <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                                 </NavLink>
                                 <div className="text-white pl-3">Redes Sociales</div>
-                                <div className="flex flex-wrap justify-center gap-2">
-                                <a
-                                    href="#"
-                                    className=""
-                                    >
-                                <FontAwesomeIcon icon={faFacebook} />    
-                                </a>
-                                <a
-                                    href="#"
-                                    class="social-button-social-button--twitter"
-                                    aria-label="Facebook">
-                                <FontAwesomeIcon icon={faTwitter}/>    
-                                </a>
-                                <a
-                                    href="#"
-                                    class="social-button-social-button--youtube"
-                                    aria-label="Facebook">
-                                <FontAwesomeIcon icon={faYoutube}/>    
-                                </a>
+                                <div className=" flex flex-wrap justify-center gap-2">
+                                    <a href="#"
+                                        className="w-4 h-4  ">
+                                        <FontAwesomeIcon icon={faFacebook} className="w-4 h-4 text-blue bg-white rounded-[100%] p-3 "/>
+                                    </a>
+                                    <a
+                                        href="#"
+                                        >
+                                        <FontAwesomeIcon icon={faTwitter}/>    
+                                    </a>
+                                    <a
+                                        href="#"
+                                        className="w-4 h-4 text-blue-700 ">
+                                        <FontAwesomeIcon icon={faYoutube}/>    
+                                    </a>
                                 </div>
-                                <div className="text-white pl-3 space-x-3 justify-items-center">
-                                    <a href="#"><FontAwesomeIcon icon={faFacebook}/></a>
-                                    <a href="#"><FontAwesomeIcon icon={faTwitter}/></a>
-                                    <a href="#"><FontAwesomeIcon icon={faYoutube}/></a>
-                                </div>
+                                
                             </div>
                         </div>
                         <div className="-mr-2 flex items-center sm:hidden">
