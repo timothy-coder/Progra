@@ -1,5 +1,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
+import Clockg from '../../Components/Clockg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonCircleCheck, faTimes, faDownload, faFilter,faUsersBetweenLines } from '@fortawesome/free-solid-svg-icons';
 import { faClock,  faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons';
@@ -33,7 +34,7 @@ export default function Reporte(props) {
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
-				<FontAwesomeIcon icon={faTimes} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(12,73,187)]"/>
+					<Clockg/>
 					<span class="text-2xl">
 						<p>Hora actual</p>
 						<p className="font-clock"><Clock/></p>
