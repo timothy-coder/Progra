@@ -52,8 +52,8 @@ export default function Trabajadores(props) {
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar</span>
 				</a>
 					</div>
-					<table className="w-full border-collapse h-100 break-all">
-						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
+					<table className="w-full border-collapse h-100 break-all text-center">
+						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid text-center">
 							<tr>
 								<th>Correo</th>
                                 <th>Usuario</th>

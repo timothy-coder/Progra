@@ -51,7 +51,7 @@ export default function Configuración(props) {
 				</a>
 					</div>
 					<table className="w-[100%] border-collapse h-98 break-all">
-						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
+						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid ">
 							<tr>
 								<th>Correo</th>
                                 <th>Usuario</th>
