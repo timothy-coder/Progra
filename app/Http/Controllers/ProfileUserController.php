@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
-class ProfileUserController extends Controller
+class ProfileuserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class ProfileUserController extends Controller
      */
     public function index()
     {
-        return Inertia::render('ProfileUser/Edit');
+        return Inertia::render('Profileuser/Edit');
     }
 
     /**
