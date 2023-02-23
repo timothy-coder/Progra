@@ -5,7 +5,8 @@ import { Head } from '@inertiajs/react';
 export default function Vista(props) {
     return (
         <AuthenticatedLayout
-            auth={auth}
+            auth={props.auth}
+            errors={props.errors}
         >
             <Head title="Vista" />
 
