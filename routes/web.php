@@ -5,7 +5,8 @@ use App\Http\Controllers\{DependenciasController,
                           ReporteController,
                           TrabajadorController,
                           UserController,
-                          ConfigController
+                          ConfigController,
+                          VistaController
                         };
 
 use Illuminate\Foundation\Application;
@@ -48,7 +49,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/dependencia',[DependenciasController::class,'index'])->name('dependencia.index');
     Route::get('/config',[ConfigController::class,'index'])->name('config.index');
     
-    Route::get('/profileuser',[VistaController::class,'index'])->name('profileuser.index');
+    Route::get('/vista',[VistaController::class,'index'])->name('vista.index');
 
     
 
