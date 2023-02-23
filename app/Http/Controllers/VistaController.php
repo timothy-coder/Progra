@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use Inertia\Inertia;
 
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
-class DependenciasController extends Controller
+class VistaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class DependenciasController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Dependencia/index');
+        return Inertia::render('profileuser/index');
     }
 
     /**
