@@ -66,7 +66,7 @@ export default function Trabajadores(props) {
 						<tbody>
 							<tr className="bg-white hover:bg-gray-200">
                                 <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
-                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+                                <td className="px-0 py-1">pepito123<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
@@ -76,7 +76,7 @@ export default function Trabajadores(props) {
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
-                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+                                <td className="px-0 py-1">pepito123<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
@@ -86,7 +86,7 @@ export default function Trabajadores(props) {
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
-                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+                                <td className="px-0 py-1">pepito123<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
@@ -96,7 +96,7 @@ export default function Trabajadores(props) {
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
-                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+                                <td className="px-0 py-1">pepito123<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
@@ -106,7 +106,7 @@ export default function Trabajadores(props) {
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
-                                <td className="px-0 py-1">Nicolas brandon pariona de la peña<a href=""></a></td>
+                                <td className="px-0 py-1">pepito123<a href=""></a></td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 

@@ -70,7 +70,7 @@ export default function Reporte(props) {
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
-									<p>Nicolas</p>
+									<p>pepito123</p>
 								</td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
@@ -84,7 +84,7 @@ export default function Reporte(props) {
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
-									<p>Nicolas</p>
+									<p>pepito123</p>
 								</td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
@@ -98,7 +98,7 @@ export default function Reporte(props) {
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
-									<p>Nicolas</p>
+									<p>pepito123</p>
 								</td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
@@ -112,7 +112,7 @@ export default function Reporte(props) {
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
-									<p>Nicolas</p>
+									<p>pepito123</p>
 								</td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
@@ -126,7 +126,7 @@ export default function Reporte(props) {
 									<p>example@uncp.edu.pe</p>
 								</td>
 								<td className="px-0 py-4">
-									<p>Nicolas</p>
+									<p>pepito123</p>
 								</td>
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
