@@ -7,7 +7,7 @@ import { Link } from '@inertiajs/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBoxArchive, faGears, faLandmark, faPeopleLine, faPersonWalking, faPersonWalkingArrowRight, faPhone, faUserGear, faUserLarge } from '@fortawesome/free-solid-svg-icons';
 
-export default function Authenticated({ auth, header, children }) {
+export default function Authenticated({ auth, children }) {
     
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
     
@@ -110,12 +110,7 @@ export default function Authenticated({ auth, header, children }) {
                 </div>
             </nav>
 
-            {header && (
-                <header className="bg-white shadow">
-                    <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">{header}</div>
-                </header>
-            )}
-
+        
             <main className="pl-[10rem] ">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
                     <div className="px-6">
@@ -138,7 +133,7 @@ export default function Authenticated({ auth, header, children }) {
                                             <span className="inline-flex rounded-md">
                                                 <button
                                                     type="button"
-                                                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-4 font-black border-4 rounded-md text-gray-500 bg-white hover:text-gray-700 hover:border-yellow-500 focus:outline-none transition ease-in-out duration-150"
+                                                    className="inline-flex items-center px-4 py-2 border-transparent text-sm leading-4 font-black border-4 rounded-md text-gray-500 bg-white hover:text-gray-700 hover:border-yellow-500 focus:outline-none transition ease-in-out duration-150"
                                                 >
                                                     <FontAwesomeIcon icon={faUserLarge} className="pr-2"/>
                                                     {auth.user.name}
