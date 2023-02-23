@@ -43,7 +43,7 @@ export default function Trabajadores(props) {
 			
 
 			<div className="px-6 flex wrap gap-6 w-full mt-6">
-				<div className="grow basis-[500px]">
+				<div className="w-[100%]">
 					<div className="flex items-center gap-4 mb-6">
 						<h3 className="text-2xl font-semibold mr-auto">Entrada recientes</h3>
 						<a href="#" className="pr-6 ">
@@ -52,7 +52,7 @@ export default function Trabajadores(props) {
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar</span>
 				</a>
 					</div>
-					<table className="w-full border-collapse"class="break-all">
+					<table className="w-[100%] border-collapse"class="break-all">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
 							<tr>
 								<th>Correo</th>
