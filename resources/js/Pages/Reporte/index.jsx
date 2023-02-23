@@ -19,8 +19,8 @@ export default function Reporte(props) {
 			
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
-				<li className="flex item-center gap-9 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
-				<FontAwesomeIcon icon={faUsersBetweenLines} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
+				<FontAwesomeIcon icon={faUserGroup} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
