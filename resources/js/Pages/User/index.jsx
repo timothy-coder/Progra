@@ -25,7 +25,7 @@ export default function Dependencia(props) {
 				</a>
 					</div>
 					<table className="w-full border-collapse h-100 break-all text-center">
-						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid text-center">
+						<thead className="text-[13px]  pb-3 border-b-[black] border-b border-solid text-center">
 							<tr>
 								<th>Correo</th>
                                 <th>Usuario</th>
