@@ -5,7 +5,8 @@ use App\Http\Controllers\{DependenciasController,
                           ReporteController,
                           TrabajadorController,
                           UserController,
-                          ConfigController
+                          ConfigController,
+                          VistaController
                         };
 
 use Illuminate\Foundation\Application;
