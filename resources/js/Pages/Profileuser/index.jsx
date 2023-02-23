@@ -22,14 +22,14 @@ export default function index({ auth, mustVerifyEmail, status }) {
 
             <div className="py-12">
                 <section>
-            <header>
-                <h2 className="text-lg font-medium text-gray-900">Profile Information</h2>
-
-                <p className="mt-1 text-sm text-gray-600">
-                    Update your account's profile information and email address.
-                </p>
-            </header>
-
+                   
+                        <h2 className="text-lg font-medium text-gray-900">Profile Information</h2>
+                        <p className="mt-1 text-sm text-gray-600">
+                            Update your account's profile information and email address.
+                        </p>
+                        <label>
+                            administrador
+                        </label>
             <form onSubmit={submit} className="mt-6 space-y-6">
                 <div>
                     <InputLabel for="name" value="Name" />
