@@ -1,9 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+use Inertia\Inertia;
 
 use Illuminate\Http\Request;
-use Inertia\Inertia;
 
 class VistaController extends Controller
 {
@@ -14,7 +14,7 @@ class VistaController extends Controller
      */
     public function index()
     {
-        return Inertia::render('profileuser/index');
+        return Inertia::render('Vista/index');
     }
 
     /**
