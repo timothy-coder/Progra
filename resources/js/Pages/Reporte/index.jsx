@@ -26,8 +26,8 @@ export default function Reporte(props) {
 						<p>N° total de personal</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-4 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
-				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-40 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
+				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-35 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
@@ -60,8 +60,8 @@ export default function Reporte(props) {
 								<th>Usuario</th>
 								<th>Hora de entrada</th>
                                 <th>Hora de salida</th>
-								<th>Status de Entrada</th>
-								<th>Status de Salida</th>
+								<th>Entrada</th>
+								<th>Salida</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -75,9 +75,9 @@ export default function Reporte(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">08:00</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">06:15</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
 								<td className="px-0 py-4">
@@ -89,9 +89,9 @@ export default function Reporte(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">08:15</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">05:00</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
 								<td className="px-0 py-4">
@@ -103,9 +103,9 @@ export default function Reporte(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">09:00</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">04:00</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
 								<td className="px-0 py-4 ">
@@ -117,9 +117,9 @@ export default function Reporte(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">08:01</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Justificado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
 								<td className="px-0 py-4">
@@ -131,9 +131,9 @@ export default function Reporte(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>07:55</span></td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">03:55</span></td>
 								
 							</tr>
 							

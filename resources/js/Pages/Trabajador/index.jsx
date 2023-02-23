@@ -70,9 +70,9 @@ export default function Trabajadores(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
-                                <td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">08:00</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 ">06:15</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
@@ -80,9 +80,9 @@ export default function Trabajadores(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
-                                <td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">08:15</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">05:00</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
@@ -90,9 +90,9 @@ export default function Trabajadores(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
-                                <td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Registrando</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">09:00</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">04:00</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
@@ -100,9 +100,9 @@ export default function Trabajadores(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
-                                <td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">No Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">08:01</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-yellow-500 ">Justificado</span></td>
 							</tr>
 							<tr className="bg-white hover:bg-gray-200">
                             <td className="px-0 py-1">d_cargo@uncp.edu.pe</td>
@@ -110,9 +110,9 @@ export default function Trabajadores(props) {
 								<td className="px-0 py-4">08:00</td>
                                 <td className="px-0 py-4">06:00</td>
 								<td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
-                                <td className="px-0 py-4"><span className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>Registrado</span></td>
+								font-bold px-4 py-1.5 rounded-[20px] bg-green-700 "	>07:55</span></td>
+								<td className="px-0 py-4"><span className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-red-700 ">05:59</span></td>
 							</tr>
 						</tbody>
 					</table>
