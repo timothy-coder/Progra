@@ -3,7 +3,7 @@ import { Head } from '@inertiajs/react';
 import Clock from '../../Components/Clock';
 import Clockg from '../../Components/Clockg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock,faCopyright, faDownload, faPeopleArrows, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
+import { faClock,faCopyright, faDownload, faPersonCircleCheck, faUserGroup, faWrench } from '@fortawesome/free-solid-svg-icons'
 
 export default function Trabajadores(props) {
     return (
@@ -25,7 +25,7 @@ export default function Trabajadores(props) {
 					</span>
 				</li>
 				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
-				<FontAwesomeIcon icon={faPeopleArrows} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
+				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-20 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
 					<span className="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
