@@ -109,8 +109,6 @@ export default function Authenticated({ auth, children }) {
                     </div>
                 </div>
             </nav>
-
-        
             <main className="pl-[10rem] ">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
                     <div className="px-6">
