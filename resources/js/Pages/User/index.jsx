@@ -24,7 +24,7 @@ export default function Dependencia(props) {
 					 font-medium gap-2.5 bg-black text-white px-4 py-0 rounded-lg hover:text-[rgb(151,115,61)] "><FontAwesomeIcon icon={faDownload} />Descargar lista de usuarios</span>
 				</a>
 					</div>
-					<table className="w-full border-collapse"class="break-all">
+					<table className="w-full border-collapse h-100 "class="break-all">
 						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid">
 							<tr>
 								<th>Correo</th>
