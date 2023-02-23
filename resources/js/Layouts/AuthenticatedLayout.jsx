@@ -13,13 +13,13 @@ export default function Authenticated({ auth, header, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed ">
-                <div className=" px-4 sm:px-6 lg:px-0 w-[10rem]">
+            <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed sm:w-[10rem]">
+                <div className=" px-4 sm:px-1 lg:px-0 w-[10rem]">
                     <div className="justify-between space-y-4  ">
                         <div className="shrink-0 flex items-center p-3.5 ">
                             <Link href={route('reporte.index')}>
                                 {/* href='/' cambiar*/}
-                                <ApplicationLogo className="block h-[5rem] w-auto fill-current" />
+                                <ApplicationLogo className="block h-[4rem] w-auto fill-current" />
                             </Link>
                         </div>
                        
@@ -73,7 +73,7 @@ export default function Authenticated({ auth, header, children }) {
                    
                 </div>
 
-                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'} >
+                <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
                     <div className="pt-2 pb-3 space-y-1 ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
