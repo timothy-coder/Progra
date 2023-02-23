@@ -25,7 +25,7 @@ export default function Trabajadores(props) {
 					</span>
 				</li>
 				<li className="flex item-center gap-4 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
-				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-40 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
+				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
 					<span className="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
