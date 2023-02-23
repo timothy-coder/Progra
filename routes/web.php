@@ -47,8 +47,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/usuarios',[UserController::class,'index'])->name('user.index');
     Route::get('/dependencia',[DependenciasController::class,'index'])->name('dependencia.index');
     Route::get('/config',[ConfigController::class,'index'])->name('config.index');
+    /*
+    Route::get('/profileuser',[ConfigController::class,'edit'])->name('profile.edit');
 
-    
+    */
     
 
 });
