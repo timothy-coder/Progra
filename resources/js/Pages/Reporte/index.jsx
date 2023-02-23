@@ -60,8 +60,8 @@ export default function Reporte(props) {
 								<th>Usuario</th>
 								<th>Hora de entrada</th>
                                 <th>Hora de salida</th>
-								<th>Entrada</th>
-								<th>Salida</th>
+								<th>Estatus Entrada</th>
+								<th>Estatus Salida</th>
 							</tr>
 						</thead>
 						<tbody>
