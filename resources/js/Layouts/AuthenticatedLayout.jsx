@@ -27,7 +27,7 @@ export default function Authenticated({ auth, children }) {
                         <div className="flex flex-col space-x-3">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
+                                <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a> 
                                 </NavLink>
                                 <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
                                 <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
@@ -47,7 +47,7 @@ export default function Authenticated({ auth, children }) {
                                 <a className="px-6 text-white">064-432546</a>
                             </div>
                         </div>
-                        <div className="-mr-2 flex items-center sm:hidden">
+                        <div className="-mr-2 flex items-center sm:hidden ">
                             <button
                                 onClick={() => setShowingNavigationDropdown((previousState) => !previousState)}
                                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
