@@ -14,7 +14,7 @@ export default function Authenticated({ auth, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className=" border-b border-[rgb(62,62,62)]  bg-[rgb(62,62,62)]">
+            <nav className=" border-b border-[rgb(62,62,62)]   ">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] fixed bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="justify-between space-y-4 ">
                         <div className="shrink-0 flex items-center p-3.5 ">
@@ -27,19 +27,19 @@ export default function Authenticated({ auth, children }) {
                         <div className="flex flex-col space-x-3">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                                <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a> 
+                                <FontAwesomeIcon icon={faBoxArchive} />Reportes
                                 </NavLink>
                                 <NavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                                <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
+                                <FontAwesomeIcon icon={faPersonWalking} />Trabajadores
                                 </NavLink>
                                 <NavLink href={route('user.index')} active={route().current('user.index')}>
-                                <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
+                                <FontAwesomeIcon icon={faPeopleLine} />Usuarios
                                 </NavLink>
                                 <NavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                                <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
+                                <FontAwesomeIcon icon={faLandmark} />Dependencia
                                 </NavLink>
                                 <NavLink href={route('config.index')} active={route().current('config.index')}>
-                                <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
+                                <FontAwesomeIcon icon={faGears} />Configuración
                                 </NavLink>
                                 <FontAwesomeIcon icon={faPhone} className="pl-3 pr-1 text-white"/>
                                 <a className="px-1 text-white">Contactenos</a>
@@ -75,21 +75,21 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="pt-2 pb-3 space-y-1 pl-[10rem]">
+                    <div className="pt-2 pb-3 space-y-1">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
-                        <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
+                        <FontAwesomeIcon icon={faBoxArchive} />Reportes
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('trabajador.index')} active={route().current('trabajador.index')}>
-                        <FontAwesomeIcon icon={faPersonWalking} /><a className="px-2">Trabajadores</a>
+                        <FontAwesomeIcon icon={faPersonWalking} />Trabajadores
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('user.index')} active={route().current('user.index')}>
-                        <FontAwesomeIcon icon={faPeopleLine} /><a className="px-2">Usuarios</a>
+                        <FontAwesomeIcon icon={faPeopleLine} />Usuarios
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('dependencia.index')} active={route().current('dependencia.index')}>
-                        <FontAwesomeIcon icon={faLandmark} /><a className="px-2">Dependencia</a>
+                        <FontAwesomeIcon icon={faLandmark} />Dependencia
                         </ResponsiveNavLink>
                         <ResponsiveNavLink href={route('config.index')} active={route().current('config.index')}>
-                        <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
+                        <FontAwesomeIcon icon={faGears} />Configuración
                         </ResponsiveNavLink>
                         <a className="px-1 text-white">Contactenos</a>
                                 <br/>
