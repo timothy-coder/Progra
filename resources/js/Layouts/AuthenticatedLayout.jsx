@@ -14,8 +14,8 @@ export default function Authenticated({ auth, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className="bg-[rgb(62,62,62)] h-[100%] border-b border-[rgb(62,62,62)] fixed ">
-                <div className="px-4 sm:px-1 lg:px-0 w-[10rem]">
+            <nav className=" border-b border-[rgb(62,62,62)]   ">
+                <div className="px-4 sm:px-1 lg:px-0 w-[10rem] fixed bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="justify-between space-y-4 ">
                         <div className="shrink-0 flex items-center p-3.5 ">
                             <Link href={route('reporte.index')}>
