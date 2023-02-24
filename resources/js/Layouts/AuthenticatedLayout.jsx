@@ -13,8 +13,8 @@ export default function Authenticated({ auth, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
     
     return (
-        <div className="min-w-screen bg-white">
-            <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]  ">
+        <div className="min-w-screen bg-white ">
+            <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)] ">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="justify-between space-y-4">
@@ -77,7 +77,7 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="flex">
+                    <div className="">
                     <div className="pt-2 pb-3 space-y-1  ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
