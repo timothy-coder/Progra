@@ -14,7 +14,7 @@ export default function Authenticated({ auth, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className=" border-b border-[rgb(62,62,62)]   ">
+            <nav className=" border-b border-[rgb(62,62,62)]  bg-[rgb(62,62,62)]">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] fixed bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="justify-between space-y-4 ">
                         <div className="shrink-0 flex items-center p-3.5 ">
@@ -75,7 +75,7 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="pt-2 pb-3 space-y-1">
+                    <div className="pt-2 pb-3 space-y-1 pl-[10rem]">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} /><a className="px-2">Reportes</a>
                         </ResponsiveNavLink>
@@ -91,6 +91,9 @@ export default function Authenticated({ auth, children }) {
                         <ResponsiveNavLink href={route('config.index')} active={route().current('config.index')}>
                         <FontAwesomeIcon icon={faGears} /><a className="px-2">Configuración</a>
                         </ResponsiveNavLink>
+                        <a className="px-1 text-white">Contactenos</a>
+                                <br/>
+                        <a className="px-6 text-white">064-432546</a>
                     </div>
 
                     <div className="pt-4 pb-1 border-t border-gray-200">
@@ -101,7 +104,7 @@ export default function Authenticated({ auth, children }) {
                             <div className="font-medium text-sm text-gray-500">{auth.user.email}</div>
                         </div>
 
-                        <div className="mt-3 space-y-1">
+                        <div className="mt-3 space-y-1 pl-[10rem]">
                             <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
                             <ResponsiveNavLink method="post" href={route('logout')} as="button">
                                 Log Out
