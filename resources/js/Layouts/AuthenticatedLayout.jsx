@@ -16,7 +16,7 @@ export default function Authenticated({ auth, children }) {
         <div className="min-w-screen bg-white ">
             <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] bg-[rgb(62,62,62)]  h-[100%]">
-                    <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)]  h-[100%]">
+                    <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)] h-[100%]">
                     <div className="justify-between space-y-4">
                         <div className="hidden sm:flex">
                         <div className="shrink-0 flex items-center p-3.5 ">
@@ -79,7 +79,7 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="">
+
                     <div className="pt-2 pb-3 space-y-1  ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
@@ -118,7 +118,7 @@ export default function Authenticated({ auth, children }) {
                         </div>
                     </div>
                     </div>
-                </div>
+             
             </nav>
             <main className="sm:pl-[10rem]">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
