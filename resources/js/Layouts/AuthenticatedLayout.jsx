@@ -14,7 +14,7 @@ export default function Authenticated({ auth, children }) {
     
     return (
         <div className="min-w-screen bg-white">
-            <nav className=" border-b border-[rgb(62,62,62)]   ">
+            <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]  ">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] fixed bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="justify-between space-y-4 ">
                         <div className="shrink-0 flex items-center p-3.5 ">
@@ -25,7 +25,7 @@ export default function Authenticated({ auth, children }) {
                         </div>
                        
                         <div className="flex flex-col space-x-3">
-                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1">
+                            <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                                 <FontAwesomeIcon icon={faBoxArchive} />Reportes
                                 </NavLink>
@@ -75,7 +75,7 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="pt-2 pb-3 space-y-1">
+                    <div className="pt-2 pb-3 space-y-1 pl-[10rem] ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
                         </ResponsiveNavLink>
@@ -91,6 +91,7 @@ export default function Authenticated({ auth, children }) {
                         <ResponsiveNavLink href={route('config.index')} active={route().current('config.index')}>
                         <FontAwesomeIcon icon={faGears} />Configuración
                         </ResponsiveNavLink>
+                        <FontAwesomeIcon icon={faPhone} className="pl-3 pr-1 text-white"/>
                         <a className="px-1 text-white">Contactenos</a>
                                 <br/>
                         <a className="px-6 text-white">064-432546</a>
