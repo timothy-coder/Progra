@@ -15,8 +15,9 @@ export default function Authenticated({ auth, children }) {
     return (
         <div className="min-w-screen bg-white">
             <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]  ">
-                <div className="px-4 sm:px-1 lg:px-0 w-[10rem] fixed bg-[rgb(62,62,62)]  h-[100%]">
-                    <div className="justify-between space-y-4 ">
+                <div className="px-4 sm:px-1 lg:px-0 w-[10rem] bg-[rgb(62,62,62)]  h-[100%]">
+                    <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)]  h-[100%]">
+                    <div className="justify-between space-y-4">
                         <div className="shrink-0 flex items-center p-3.5 ">
                             <Link href={route('reporte.index')}>
                                 {/* href='/' cambiar*/}
@@ -71,6 +72,7 @@ export default function Authenticated({ auth, children }) {
                             </button>
                         </div>
                     </div>
+                    </div>
                    
                 </div>
 
@@ -114,7 +116,7 @@ export default function Authenticated({ auth, children }) {
                     </div>
                 </div>
             </nav>
-            <main className="pl-[10rem] ">
+            <main className="sm:pl-[10rem] ">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
                     <div className="px-6">
                         <h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
