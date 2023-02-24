@@ -75,7 +75,7 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
-                    <div className="pt-2 pb-3 space-y-1">
+                    <div className="pt-2 pb-3 space-y-1 ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
                         </ResponsiveNavLink>
