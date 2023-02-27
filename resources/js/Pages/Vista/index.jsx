@@ -26,9 +26,9 @@ export default function Vista(props) {
                   <label>Dependencia</label>
                   <input type="number" name="" required=""></input>
                   <label>Hora de entrada</label>
-                  <input type="number" name="" required=""></input>
+                  <input type="time" name="" required=""></input>
                   <label>Hora de salida</label>
-                  <input type="number" name="" required=""></input>
+                  <input type="time" name="" required=""></input>
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
                   
