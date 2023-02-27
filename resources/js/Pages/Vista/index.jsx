@@ -25,6 +25,7 @@ export default function Vista(props) {
                   <input type="number" name="" required=""></input>
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
+                  
                 </div>
             </form>
           </div>

@@ -26,7 +26,7 @@ export default function Authenticated({ auth, children }) {
                             </Link>
                         </div>
                         </div>
-                       
+                        <hr className="w-[80%] items-center"></hr>
                         <div className="flex flex-col space-x-3">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>
