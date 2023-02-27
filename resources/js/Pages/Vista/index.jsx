@@ -18,7 +18,7 @@ export default function Vista(props) {
 
             <h2>Cambio de informacion</h2>
             <form>
-                <div className="flex flex-col">
+                <div className="flex flex-col w-96">
                   <label>Correo</label>
                   <input type="email" name="" required="" placeholder=""></input>
                   <label>Nombre</label>
