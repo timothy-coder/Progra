@@ -11,7 +11,7 @@ export default function Vista(props) {
             <Head title="Vista" />
 
         <div class="todo">
-          <div class="login-box">
+          <div class="login-box px-6">
             <h2>Cambio de informacion</h2>
             <form>
                 <div className="flex flex-col">
