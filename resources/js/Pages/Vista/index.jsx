@@ -17,7 +17,7 @@ export default function Vista(props) {
 
             <h2 className="text-2xl">Cambio de informacion</h2>
             <form>
-                <div className="flex flex-col w-100">
+                <div className="flex flex-col w-100 ">
                   <label>Correo</label>
                   <input type="email" name="" required="" placeholder=""></input>
                   <label>Nombre</label>
@@ -32,7 +32,7 @@ export default function Vista(props) {
                   <input type="number" name="" required=""></input>
                   
                 </div>
-                <div className="flex flex-col w-100 py-6 place-items-center"><Link href={route('config.index')}><td className=" cursor-pointer text-2.5 text-white 
+                <div className="flex flex-col w-100 py-6 place-items-center"><Link href={route('config.index')}><td className=" font-cursor-pointer text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">CONFIRMAR CAMBIO
                 </td></Link></div>
 
