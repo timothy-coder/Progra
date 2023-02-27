@@ -1,5 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Head,Link } from '@inertiajs/react';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 export default function Vista(props) {
     return (
@@ -14,8 +16,11 @@ export default function Vista(props) {
           <div class="login-box px-10 py-2">
 
           <div>
-
-            <h2 className="text-2xl">Cambio de informacion</h2>
+            
+            <div className="flex space-x-4">
+              <p><FontAwesomeIcon icon={faArrowLeft} className="bg-yellow-500 w-[32px] h-[32px]"/></p>
+              <h2 className="text-2xl">Cambio de informacion</h2>
+            </div>
             <form>
                 <div className="flex flex-col w-100">
                   <label>Correo</label>
