@@ -18,7 +18,7 @@ export default function Vista(props) {
 
             <h2>Cambio de informacion</h2>
             <form>
-                <div className="flex flex-col w-96">
+                <div className="flex flex-col w-100">
                   <label>Correo</label>
                   <input type="email" name="" required="" placeholder=""></input>
                   <label>Nombre</label>
@@ -32,8 +32,8 @@ export default function Vista(props) {
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
                 </div>
-                <div className="flex flex-col w-96 py-6 place-items-center "><td className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">no es real
+                <div className="flex flex-col w-100 py-6 place-items-center "><td className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">CONFIRMAR CAMBIO
                                 </td></div>
 
             </form>
