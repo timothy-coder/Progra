@@ -14,7 +14,6 @@ export default function Vista(props) {
           <div class="login-box px-10 py-2">
 
           <div>
-
             <h2 className="text-2xl">Cambio de informacion</h2>
             <form>
                 <div className="flex flex-col w-100 ">
