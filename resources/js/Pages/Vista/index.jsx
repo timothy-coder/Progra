@@ -1,5 +1,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import { Head } from '@inertiajs/react';
+import { Head,Link } from '@inertiajs/react';
+
 export default function Vista(props) {
     return (
         <AuthenticatedLayout
@@ -31,9 +32,9 @@ export default function Vista(props) {
                   <input type="number" name="" required=""></input>
                   
                 </div>
-                <div className="flex flex-col w-100 py-6 place-items-center "><td className="text-2.5 text-white 
+                <div className="flex flex-col w-100 py-6 place-items-center"><Link href={route('config.index')}><td className=" cursor-pointer text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">CONFIRMAR CAMBIO
-                </td></div>
+                </td></Link></div>
 
 
             </form>
