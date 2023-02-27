@@ -34,6 +34,8 @@ export default function Vista(props) {
                 </div>
             </form>
           </div>
+        </div>
+        </div>
         </AuthenticatedLayout>
     );
 }
