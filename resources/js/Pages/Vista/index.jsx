@@ -19,7 +19,7 @@ export default function Vista(props) {
 
             
             <div className="flex space-x-4">
-              <a href={route('config.index')}><FontAwesomeIcon icon={faArrowLeft} className="bg-yellow-500 w-[30px] h-[30px]"/></a>
+              <a href={route('config.index')}><FontAwesomeIcon icon={faArrowLeft} className="rounded-[5px] bg-yellow-500 w-[30px] h-[30px]"/></a>
               <h2 className="text-2xl">Cambio de informacion</h2>
             </div>
 
