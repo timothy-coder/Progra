@@ -32,6 +32,10 @@ export default function Vista(props) {
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
                 </div>
+                <div className="flex flex-col w-96 py-6 place-items-center "><td className="text-2.5 text-white 
+								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">no es real
+                                </td></div>
+
             </form>
           </div>
         </div>
