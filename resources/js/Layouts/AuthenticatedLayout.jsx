@@ -80,7 +80,7 @@ export default function Authenticated({ auth, children }) {
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
 
-                    <div className="pt-2 pb-3 space-y-1">
+                    <div className="pt-0 pb-3 space-y-1">
 
 
                     <div className="pt-2 pb-3 space-y-1  ">
@@ -139,7 +139,7 @@ export default function Authenticated({ auth, children }) {
                         </ul>
                         
                     </div>
-                    <div className="hidden sm:visible sm:items-center ">
+                    <div className="invisible sm:visible sm:items-center ">
                                 <div className="mx-3 relative">
                                     <Dropdown>
                                         <Dropdown.Trigger>
