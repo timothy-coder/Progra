@@ -35,7 +35,7 @@ export default function Vista(props) {
                 </div>
                 <div className="flex flex-col w-100 py-6 place-items-center "><td className="text-2.5 text-white 
 								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">CONFIRMAR CAMBIO
-                                </td></div>
+                </td></div>
 
             </form>
           </div>
