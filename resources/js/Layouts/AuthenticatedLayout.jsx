@@ -13,7 +13,7 @@ export default function Authenticated({ auth, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
     
     return (
-        <div className="min-w-screen bg-white ">
+        <div className="min-w-screen bg-white mt-[-40px] sm:mt-0">
             <nav className="sm:pt-0 pt-[0.1px] border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] bg-[rgb(62,62,62)]  h-[100%]">
                     <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)] h-[100%]">
