@@ -19,14 +19,14 @@ export default function Authenticated({ auth, children }) {
                     <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)] h-[100%]">
                     <div className="justify-between space-y-4">
                         <div className="hidden sm:flex">
-                        <div className="shrink-0 flex items-center p-3.5 ">
+                        <div className="shrink-0 flex items-center p-3.5 mx-6">
                             <Link href={route('reporte.index')}>
                                 {/* href='/' cambiar*/}
                                 <ApplicationLogo className="block h-[4rem] w-auto fill-current" />
                             </Link>
                         </div>
                         </div>
-                       
+                        <hr className="w-[80%] mx-3.5 items-center invisible sm:visible"></hr>
                         <div className="flex flex-col space-x-3">
                             <div className="max-sm:hidden space-y-8 sm:-my-px sm:mx-1 ">
                                 <NavLink href={route('reporte.index')} active={route().current('reporte.index')}>

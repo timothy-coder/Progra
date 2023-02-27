@@ -14,7 +14,7 @@ export default function Vista(props) {
 
           <div>
 
-            <h2>Cambio de informacion</h2>
+            <h2 className="text-2xl">Cambio de informacion</h2>
             <form>
                 <div className="flex flex-col w-100">
                   <label>Correo</label>
@@ -24,15 +24,17 @@ export default function Vista(props) {
                   <label>Dependencia</label>
                   <input type="number" name="" required=""></input>
                   <label>Hora de entrada</label>
-                  <input type="number" name="" required=""></input>
+                  <input type="time" name="" required=""></input>
                   <label>Hora de salida</label>
-                  <input type="number" name="" required=""></input>
+                  <input type="time" name="" required=""></input>
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
+                  
                 </div>
                 <div className="flex flex-col w-100 py-6 place-items-center "><td className="text-2.5 text-white 
-								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">GUARDAR CAMBIOS
-                                </td></div>
+								font-bold px-4 py-1.5 rounded-[20px] bg-black hover:bg-black hover:text-[rgb(151,115,61)]">CONFIRMAR CAMBIO
+                </td></div>
+
 
             </form>
           </div>
