@@ -9,9 +9,7 @@ export default function Vista(props) {
             errors={props.errors}
         >
             <Head title="Vista" />
-
-        <div class="todo">
-          <div class="login-box">
+          <div>
             <h2>Cambio de informacion</h2>
             <form>
                 <div className="flex flex-col">
@@ -30,7 +28,6 @@ export default function Vista(props) {
                 </div>
             </form>
           </div>
-        </div>
         </AuthenticatedLayout>
     );
 }
