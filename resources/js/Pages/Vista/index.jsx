@@ -14,11 +14,13 @@ export default function Vista(props) {
           <div class="login-box">
             <h2>Cambio de informacion</h2>
             <form>
-                <div className="inline-block">
+                <div className="flex flex-col">
                   <label>Correo</label>
                   <input type="email" name="" required=""></input>
                   <label>Nombre</label>
                   <input type="text" name="" required=""></input>
+                  <label>Año de inicio</label>
+                  <input type="number" name="" required=""></input>
                 </div>
             </form>
           </div>
