@@ -17,14 +17,14 @@ export default function Trabajadores(props) {
 			
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
-				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white  ">
 				<FontAwesomeIcon icon={faUserGroup} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
 					<span className='text'>
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white ">
 				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
 					<span className="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
@@ -53,7 +53,7 @@ export default function Trabajadores(props) {
 				</a>
 					</div>
 					<table className="w-full border-collapse h-100 break-all text-center">
-						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid text-center">
+						<thead className="text-[13px]  pb-3 border-b-[black] border-b border-solid text-center">
 							<tr>
 								<th>Correo</th>
                                 <th>Usuario</th>

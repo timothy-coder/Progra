@@ -19,21 +19,21 @@ export default function Reporte(props) {
 			
 
 			<ul className="px-6 grid gap-6 mt-9 grid-cols-[repeat(auto-fit,minmax(240px,1fr))]">
-				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white hover:text-gray-200 ">
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(35,164,85)] text-white  ">
 				<FontAwesomeIcon icon={faUserGroup} className="w-30 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(35,164,85)]"/>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">9999</h3>
 						<p>N° total de personal</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white hover:text-gray-200">
+				<li className="flex item-center gap-6 p-11 rounded-[20px] bg-[rgb(139,144,147)] text-white">
 				<FontAwesomeIcon icon={faPersonCircleCheck} className="w-35 h-20 text-4xl flex justify-center item-center rounded-[10px] bg-[rgb(139,144,147)]"/>
 					<span class="text">
 						<h3 className="text-2xl font-semibold">1231</h3>
 						<p>N° total de personal presente</p>
 					</span>
 				</li>
-				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white hover:text-gray-200">
+				<li className="flex item-center gap-6 p-6 rounded-[20px] bg-[rgb(12,73,187)] text-white">
 					<Clockg/>
 					<span class="text-2xl">
 						<p>Hora actual</p>
@@ -54,7 +54,7 @@ export default function Reporte(props) {
 				</a>
 					</div>
 					<table className="w-[760px] border-collapse items-center place-content-center"class="break-all text-center">
-						<thead className="text-[13px] text-left pb-3 border-b-[black] border-b border-solid text-center">
+						<thead className="text-[13px] pb-3 border-b-[black] border-b border-solid text-center">
 							<tr>
 								<th>Correo</th>
 								<th>Usuario</th>
