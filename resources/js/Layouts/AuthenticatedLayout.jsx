@@ -80,6 +80,9 @@ export default function Authenticated({ auth, children }) {
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
 
+                    <div className="pt-2 pb-3 space-y-1">
+
+
                     <div className="pt-2 pb-3 space-y-1  ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
@@ -117,10 +120,11 @@ export default function Authenticated({ auth, children }) {
                             </ResponsiveNavLink>
                         </div>
                     </div>
-                    </div>
+                </div>
+                </div>
              
             </nav>
-            <main className="sm:pl-[10rem]">
+            <main className="sm:pl-[10rem] ">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
                     <div className="px-6">
                         <h1 className="text-4xl font-semibold mb-5 text-white pt-3">UNCP</h1>
