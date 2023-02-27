@@ -18,7 +18,7 @@ export default function Vista(props) {
           <div>
             
             <div className="flex space-x-4">
-              <p><FontAwesomeIcon icon={faArrowLeft} className="bg-yellow-500 w-[32px] h-[32px]"/></p>
+              <p><FontAwesomeIcon icon={faArrowLeft} className="bg-yellow-500 w-[32px] h-[32    px]"/></p>
               <h2 className="text-2xl">Cambio de informacion</h2>
             </div>
             <form>
