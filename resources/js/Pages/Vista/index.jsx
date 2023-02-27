@@ -16,7 +16,7 @@ export default function Vista(props) {
 
           <div>
 
-            <h2>Cambio de informacion</h2>
+            <h2 className="text-2xl">Cambio de informacion</h2>
             <form>
                 <div className="flex flex-col w-100">
                   <label>Correo</label>
