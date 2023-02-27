@@ -16,11 +16,15 @@ export default function Vista(props) {
           <div class="login-box px-10 py-2">
 
           <div>
+
             
             <div className="flex space-x-4">
               <p><FontAwesomeIcon icon={faArrowLeft} className="bg-yellow-500 w-[32px] h-[32    px]"/></p>
               <h2 className="text-2xl">Cambio de informacion</h2>
             </div>
+
+            <h2 className="text-2xl">Cambio de informacion</h2>
+
             <form>
                 <div className="flex flex-col w-100 ">
                   <label>Correo</label>
