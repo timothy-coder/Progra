@@ -16,9 +16,15 @@ export default function Vista(props) {
             <form>
                 <div className="flex flex-col">
                   <label>Correo</label>
-                  <input type="email" name="" required=""></input>
+                  <input type="email" name="" required="" placeholder=""></input>
                   <label>Nombre</label>
                   <input type="text" name="" required=""></input>
+                  <label>Dependencia</label>
+                  <input type="number" name="" required=""></input>
+                  <label>Hora de entrada</label>
+                  <input type="number" name="" required=""></input>
+                  <label>Hora de salida</label>
+                  <input type="number" name="" required=""></input>
                   <label>Año de inicio</label>
                   <input type="number" name="" required=""></input>
                 </div>
