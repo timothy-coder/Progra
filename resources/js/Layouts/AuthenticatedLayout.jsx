@@ -120,7 +120,8 @@ export default function Authenticated({ auth, children }) {
                             </ResponsiveNavLink>
                         </div>
                     </div>
-                    </div>
+                </div>
+                </div>
              
             </nav>
             <main className="sm:pl-[10rem] ">
