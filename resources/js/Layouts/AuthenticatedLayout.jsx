@@ -13,16 +13,18 @@ export default function Authenticated({ auth, children }) {
     const [showingNavigationDropdown, setShowingNavigationDropdown] = useState(false);
     
     return (
-        <div className="min-w-screen bg-white">
-            <nav className=" border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]  ">
+        <div className="min-w-screen bg-white ">
+            <nav className="sm:pt-0 pt-[0.1px] border-b border-[rgb(62,62,62)] bg-[rgb(62,62,62)]">
                 <div className="px-4 sm:px-1 lg:px-0 w-[10rem] bg-[rgb(62,62,62)]  h-[100%]">
-                    <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)]  h-[100%]">
+                    <div className="px-4 sm:px-1 lg:px-0 w-[10rem] sm:fixed bg-[rgb(62,62,62)] h-[100%]">
                     <div className="justify-between space-y-4">
+                        <div className="hidden sm:flex">
                         <div className="shrink-0 flex items-center p-3.5 ">
                             <Link href={route('reporte.index')}>
                                 {/* href='/' cambiar*/}
                                 <ApplicationLogo className="block h-[4rem] w-auto fill-current" />
                             </Link>
+                        </div>
                         </div>
                        
                         <div className="flex flex-col space-x-3">
@@ -77,7 +79,11 @@ export default function Authenticated({ auth, children }) {
                 </div>
 
                 <div className={(showingNavigationDropdown ? 'block' : 'hidden') + ' sm:hidden'}>
+
                     <div className="pt-2 pb-3 space-y-1">
+
+
+                    <div className="pt-2 pb-3 space-y-1  ">
                         <ResponsiveNavLink href={route('reporte.index')} active={route().current('reporte.index')}>
                         <FontAwesomeIcon icon={faBoxArchive} />Reportes
                         </ResponsiveNavLink>
@@ -107,14 +113,15 @@ export default function Authenticated({ auth, children }) {
                             <div className="font-medium text-sm text-gray-500">{auth.user.email}</div>
                         </div>
 
-                        <div className="mt-3 space-y-1 pl-[10rem]">
+                        <div className="mt-3 space-y-1">
                             <ResponsiveNavLink href={route('profile.edit')}>Profile</ResponsiveNavLink>
                             <ResponsiveNavLink method="post" href={route('logout')} as="button">
                                 Log Out
                             </ResponsiveNavLink>
                         </div>
                     </div>
-                </div>
+                    </div>
+             
             </nav>
             <main className="sm:pl-[10rem] ">
                 <div className="flex items-center justify-between gap-4 flex-wrap bg-[rgb(13,85,57)]">
@@ -131,7 +138,7 @@ export default function Authenticated({ auth, children }) {
                         </ul>
                         
                     </div>
-                    <div className="hidden sm:flex sm:items-center ">
+                    <div className="invisible sm:visible sm:items-center ">
                                 <div className="mx-3 relative">
                                     <Dropdown>
                                         <Dropdown.Trigger>
