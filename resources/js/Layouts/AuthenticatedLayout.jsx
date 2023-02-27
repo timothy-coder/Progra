@@ -139,7 +139,7 @@ export default function Authenticated({ auth, children }) {
                         </ul>
                         
                     </div>
-                    <div className="invisible sm:visible sm:items-center ">
+                    <div className="hidden sm:flex sm:items-center ">
                                 <div className="mx-3 relative">
                                     <Dropdown>
                                         <Dropdown.Trigger>
